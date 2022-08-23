@@ -1,55 +1,55 @@
-### Papers-of-test-time-adaptation
+## Papers-of-test-time-adaptation
 
-## Contents
+# Contents
 
-## Theory & Analysis
+# Theory & Analysis
 
-# Variational inference & Uncertainty
+# Variational inference & Uncertainty #
 
-# causal methods
+# causal methods #
 
-# ERM, ARM
-
-
-
-## Papers
-
-# Backbone adaptation methods
-
-# Classifier adaptation methods
-
-# Feature adaptation methods
+# ERM, ARM #
 
 
 
-## Applications
+# Papers
 
-# Medical imaging
+# Backbone adaptation methods #
 
-# Video
+# Classifier adaptation methods #
 
-# Language
-
-# Other applications
+# Feature adaptation methods #
 
 
 
-## Related topics
+# Applications
+
+# Medical imaging #
+
+# Video #
+
+# Language #
+
+# Other applications #
 
 
 
-
-## Datasets
+# Related topics 
 
 
 
 
-## Evaluation metrics
+# Datasets
 
-# Multiple-samples-based
 
-# Single-sample-based
 
-# Online test-time adaptation
 
-# Generalized test-time adaptation
+# Evaluation metrics
+
+# Multiple-samples-based #
+
+# Single-sample-based #
+
+# Online test-time adaptation #
+
+# Generalized test-time adaptation #
