@@ -1,4 +1,4 @@
-# Papers of test-time adaptation
+# Papers of Test-time adaptation
 
 # Contents
 
