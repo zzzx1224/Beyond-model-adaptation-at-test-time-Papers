@@ -20,11 +20,17 @@ For better adapt to the unseen target domain, it is better to consider the targe
 
 # What to adapt
 
-## Backbone adaptation methods
+## Model adaptation
 
-## Classifier adaptation methods
+### Fine-tuning-based methods
 
-## Feature adaptation methods
+### Prototype-based methods
+
+## Sample adaptation
+
+### Normalization-based methods
+
+### Generation-based methods
 
 # How to adapt
 
