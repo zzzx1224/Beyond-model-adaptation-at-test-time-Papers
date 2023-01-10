@@ -23,6 +23,9 @@ Survey paper:
 
 ### - Fine-tuning-based methods
 
+- [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](http://proceedings.mlr.press/v119/sun20b.html), ICML 2020.
+- [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://openreview.net/forum?id=uXl3bZLkr3c), ICLR 2021.
+
 ### - Prototype-based methods
 
 ### Sample adaptation
