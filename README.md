@@ -21,9 +21,9 @@ Survey paper:
 
 ### Model adaptation
 
-### Fine-tuning-based methods
+### - Fine-tuning-based methods
 
-### Prototype-based methods
+### - Prototype-based methods
 
 ### Sample adaptation
 
