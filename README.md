@@ -16,6 +16,8 @@ In real application, it is difficult to collect the target data during training 
 
 For better adapt to the unseen target domain, it is better to consider the target information (domain generalization)
 
+# Related topics
+
 # Papers
 
 # What to adapt
