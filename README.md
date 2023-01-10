@@ -20,7 +20,7 @@ For better adapt to the unseen target domain, it is better to consider the targe
 
 Domain adaptation
 
-Domain generalization
+[Domain generalization](https://github.com/junkunyuan/Awesome-Domain-Generalization#theory--analysis)
 
 Source-free domain adaptation
 
