@@ -1,6 +1,6 @@
 # Papers of Test-time adaptation
 
-# Related topics
+## Related topics
 
 Domain adaptation
 
@@ -17,54 +17,33 @@ Survey paper:
 
 # Papers
 
-# What to adapt
+## What to adapt
 
-## Model adaptation
+### Model adaptation
 
 ### Fine-tuning-based methods
 
 ### Prototype-based methods
 
-## Sample adaptation
+### Sample adaptation
 
 ### Normalization-based methods
 
 ### Generation-based methods
 
-# How to adapt
+## How to adapt
 
 
-# Adapt for what
+## Applications
+
+### Medical imaging
+
+### Video
+
+### Language
+
+### Other applications
 
 
-# Applications
+## Datasets
 
-## Medical imaging
-
-## Video
-
-## Language
-
-## Other applications
-
-
-
-# Related topics 
-
-
-
-
-# Datasets
-
-
-
-
-# Evaluation metrics
-
-## Multiple-samples-based
-
-## Single-sample-based
-
-## Online test-time adaptation
-
-## Generalized test-time adaptation
