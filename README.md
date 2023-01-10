@@ -27,12 +27,25 @@ Survey paper:
 
 ### Sample adaptation
 
-### Normalization-based methods
+### - Normalization-based methods
 
-### Generation-based methods
+### - Generation-based methods
 
 ## How to adapt
 
+### Training strategies
+
+### - Single-source training
+
+### - Multi-source training
+
+### Adaptation strategies
+
+### - Online adaptation
+
+### - Batch-wise adaptation
+
+### - Sample-wise adaptation
 
 ## Applications
 
