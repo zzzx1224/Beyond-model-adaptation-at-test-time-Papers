@@ -18,6 +18,12 @@ For better adapt to the unseen target domain, it is better to consider the targe
 
 # Related topics
 
+Domain adaptation
+
+Domain generalization
+
+Source-free domain adaptation
+
 # Papers
 
 # What to adapt
