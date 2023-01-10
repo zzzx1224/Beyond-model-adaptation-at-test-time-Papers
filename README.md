@@ -21,6 +21,9 @@ For better adapt to the unseen target domain, it is better to consider the targe
 Domain adaptation
 
 [Domain generalization](https://github.com/junkunyuan/Awesome-Domain-Generalization#theory--analysis)
+Survey papers: 
+- Generalizing to Unseen Domains: A Survey on Domain Generalization [[IJCAI 2021](https://arxiv.53yu.com/pdf/2103.03097)] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)] [155]
+- Domain Generalization in Vision: A Survey [[TPAMI 2022](https://arxiv.org/abs/2103.02503)] [3] 
 
 Source-free domain adaptation
 
