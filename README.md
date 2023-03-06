@@ -46,6 +46,7 @@ Time-evolving neural network parameters; Continous time BNN; Infer the BNN param
 - [Test-time Batch Normalization](https://arxiv.org/abs/2205.10210), Arxiv.
 - [MixNorm: Test-Time Adaptation Through Online Normalization Estimation](https://arxiv.org/abs/2110.11478), Arxiv.
 - [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html), NeurIPS 2021.
+- [Domain-Conditioned Normalization for Test-Time Domain Generalization](https://link.springer.com/chapter/10.1007/978-3-031-25085-9_17) ECCV 2022 Workshop. Similar to MetaNorm, but inferring both BN statistics and rescaling parameters.
 
 ### - Generation-based methods
 - [Neural Networks with Recurrent Generative Feedback](https://proceedings.neurips.cc/paper/2020/hash/0660895c22f8a14eb039bfb9beb0778f-Abstract.html), NeurIPS 2020.
