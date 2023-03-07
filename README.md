@@ -13,7 +13,7 @@
 - [Tailoring: encoding inductive biases by optimizing unsupervised objectives at prediction time](https://proceedings.neurips.cc/paper/2021/hash/f45cc474bff52cb1b2268a2f94a2abcf-Abstract.html), NeurIPS 2021.
 - [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html), NeurIPS 2021.
 - [Contrastive Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Contrastive_Test-Time_Adaptation_CVPR_2022_paper.html), CVPR 2022.
-- [Continual Test-Time Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.html), CVPR 2022.
+
 - [Efficient Test-Time Model Adaptation without Forgetting](https://arxiv.org/abs/2204.02610), ICML 2022.
 - [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://proceedings.neurips.cc/paper/2021/hash/b618c3210e934362ac261db280128c22-Abstract.html), NeurIPS 2022.
 - [Test-Time Training with Masked Autoencoders](https://openreview.net/group?id=ICLR.cc/2023/Conference/Authors&referrer=%5BHomepage%5D(%2F)), NeurIPS 2022.
@@ -21,7 +21,6 @@
 - [MEMO: Test Time Robustness via Adaptation and Augmentation](https://openreview.net/forum?id=XrGEkCOREX2), NeurIPS 2022.
 - [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022. Sequential test-time training (sTTT): one pass test-time adaptation without change training objective; Iteratively update target cluster and do cluster alignment of source and target domain; inspired by semisupervised learning, introduce global feature alignment to avoid bad pseudo labels (also TTT++).
 - [MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption](https://proceedings.mlr.press/v151/bartler22a.html), AISTATS 2022.
-- [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://arxiv.org/abs/2212.09713), Arxiv.
 - [Towards Stable Test-time Adaptation in Dynamic Wild World](https://openreview.net/forum?id=g2YraF75Tj), ICLR 2023. Replace BN by IN and GN. To deal with the collapse of IN and GN, remove the samples with large gradients based on the entropy; and use ahrpness aware cross-entropy loss.
 
 
@@ -29,7 +28,11 @@ More insight of the fine-tuning based method.
 
 - [Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576), Arxiv. Find that test-time adaptation is vulnerable to malicious data at test time in contrast to conventional machine learning and propose a new attack for test-time adaptation.
 
-Other fields
+Other variants
+
+- [Continual Test-Time Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.html), CVPR 2022.
+
+- [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://arxiv.org/abs/2212.09713), Arxiv.
 
 -[Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=e8PVEkSa4Fq), NeurIPS 2022. Boost generalization in zero-shot manner. Fine-tune prompts at test time, with entropy minimization and confidence selection (only high confident ones) on the augmented single test sample.
 
