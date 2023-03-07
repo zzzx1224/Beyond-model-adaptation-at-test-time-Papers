@@ -36,7 +36,7 @@ More insight of the fine-tuning based method.
 
 Other variants
 
-- [Continual Test-Time Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.html), CVPR 2022. Current self-training methods is effective when the test data are drawn from the same stationary domain, but unstable in the countinually changing environment. (Also in stable TTA in ICLR 2023). Error accumulation and catastrophic forgetting (ICML 2022). 
+- [Continual Test-Time Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.html), CVPR 2022. Current self-training methods is effective when the test data are drawn from the same stationary domain, but unstable in the countinually changing environment. (Also in stable TTA in ICLR 2023). Error accumulation and catastrophic forgetting (ICML 2022); Use weighted averaged and augmentation averaged predictions for better pseudo labels against error accumulation; stochastically small parts of source model parameters storage for forgetting.
 
 - [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://arxiv.org/abs/2212.09713), Arxiv.
 
