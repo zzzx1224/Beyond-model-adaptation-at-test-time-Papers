@@ -154,6 +154,12 @@ Without augmentation:
 - [Self-Supervised Test-Time Adaptation on Video Data](https://openaccess.thecvf.com/content/WACV2022/html/Azimi_Self-Supervised_Test-Time_Adaptation_on_Video_Data_WACV_2022_paper.html), WACV 2022
 - [AuxAdapt: Stable and Efficient Test-Time Adaptation for Temporally Consistent Video Semantic Segmentation](https://openaccess.thecvf.com/content/WACV2022/html/Zhang_AuxAdapt_Stable_and_Efficient_Test-Time_Adaptation_for_Temporally_Consistent_Video_WACV_2022_paper.html), WACV 2022
 
+### DeepFake detection
+-[OST: Improving Generalization of DeepFake Detection via One-Shot Test-Time Training](https://openreview.net/forum?id=YPoRoad6gzY), NeurIPS 2022. Meta-learning; MAML; Generate pseudo training data for one-shot training at test time.
+
+### Pose estimation
+-[Test-Time Personalization with a Transformer for Human Pose Estimation](https://proceedings.neurips.cc/paper/2021/hash/1517c8664be296f0d87d9e5fc54fdd60-Abstract.html), NeurIPS 2021. Adapt pose estimator at test time to exploit person-specific information; TTT manner, supervised and self-supervised loss; use transformer to do transformation betrween supervised keypoints and self-supervised keypoints.
+
 ### Other applications
 
 ## Techniques
