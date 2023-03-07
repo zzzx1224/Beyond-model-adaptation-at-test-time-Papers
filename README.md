@@ -12,7 +12,7 @@ Self-supervised (Auxillary model or loss during training)
 - [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://proceedings.neurips.cc/paper/2021/hash/b618c3210e934362ac261db280128c22-Abstract.html), NeurIPS 2022.
 
 
-Entropy minimization
+Entropy minimization or pseudo labeling (without change training objective)
 
 - [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://openreview.net/forum?id=uXl3bZLkr3c), ICLR 2021.
 - [If your data distribution shifts, use self-learning](https://arxiv.org/abs/2104.12928), Arxiv.
