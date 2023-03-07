@@ -46,7 +46,7 @@ Time-evolving neural network parameters; Continous time BNN; Infer the BNN param
 ### Sample adaptation
 
 ### - Normalization-based methods
-- [Revisiting Batch Normalization For Practical Domain Adaptation](https://openreview.net/forum?id=Hk6dkJQFx), ICLR 2017 Workshop.
+- [Revisiting Batch Normalization For Practical Domain Adaptation](https://openreview.net/forum?id=Hk6dkJQFx), ICLR 2017 Workshop. Replacing source BN statistics to target ones, but not at test time. 
 - [Improving robustness against common corruptions by covariate shift adaptation](https://proceedings.neurips.cc/paper/2020/hash/85690f81aadc1749175c187784afc9ee-Abstract.html), NeurIPS 2020.
 - [Evaluating Prediction-Time Batch Normalization for Robustness under Covariate Shift](https://arxiv.org/abs/2006.10963), Arxiv.
 - [MetaNorm: Learning to Normalize Few-Shot Batches Across Domains](https://openreview.net/forum?id=9z_dNsC4B5t), ICLR 2021.
