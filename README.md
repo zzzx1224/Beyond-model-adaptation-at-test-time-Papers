@@ -18,11 +18,11 @@
 - [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://proceedings.neurips.cc/paper/2021/hash/b618c3210e934362ac261db280128c22-Abstract.html), NeurIPS 2022.
 - [Test-Time Training with Masked Autoencoders](https://openreview.net/group?id=ICLR.cc/2023/Conference/Authors&referrer=%5BHomepage%5D(%2F)), NeurIPS 2022.
 - [Test Time Adaptation via Conjugate Pseudo-labels](https://openreview.net/forum?id=2yvUYc-YNUH), NeurIPS 2022.
-- [MEMO: Test Time Robustness via Adaptation and Augmentation](https://arxiv.org/abs/2110.09506), Arxiv.
+- [MEMO: Test Time Robustness via Adaptation and Augmentation](https://openreview.net/forum?id=XrGEkCOREX2), NeurIPS 2022.
+- - [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022. Sequential test-time training (sTTT): one pass test-time adaptation without change training objective; Iteratively update target cluster and do cluster alignment of source and target domain; inspired by semisupervised learning, introduce global feature alignment to avoid bad pseudo labels (also TTT++).
 - [MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption](https://proceedings.mlr.press/v151/bartler22a.html), AISTATS 2022.
 - [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://arxiv.org/abs/2212.09713), Arxiv.
 - [Towards Stable Test-time Adaptation in Dynamic Wild World](https://openreview.net/forum?id=g2YraF75Tj), ICLR 2023. Replace BN by IN and GN. To deal with the collapse of IN and GN, remove the samples with large gradients based on the entropy; and use ahrpness aware cross-entropy loss.
-- [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022. Sequential test-time training (sTTT): one pass test-time adaptation without change training objective; Iteratively update target cluster and do cluster alignment of source and target domain; inspired by semisupervised learning, introduce global feature alignment to avoid bad pseudo labels (also TTT++).
 
 
 More insight of the fine-tuning based method.
