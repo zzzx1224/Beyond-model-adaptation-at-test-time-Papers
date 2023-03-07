@@ -22,6 +22,8 @@
 - [MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption](https://proceedings.mlr.press/v151/bartler22a.html), AISTATS 2022.
 - [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://arxiv.org/abs/2212.09713), Arxiv.
 - [Towards Stable Test-time Adaptation in Dynamic Wild World](https://openreview.net/forum?id=g2YraF75Tj), ICLR 2023. Replace BN by IN and GN. To deal with the collapse of IN and GN, remove the samples with large gradients based on the entropy; and use ahrpness aware cross-entropy loss.
+- [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022. Sequential test-time training (sTTT): one pass test-time adaptation without change training objective; Iteratively update target cluster and do cluster alignment of source and target domain; inspired by semisupervised learning, introduce global feature alignment to avoid bad pseudo labels (also TTT++).
+
 
 More insight of the fine-tuning based method.
 
