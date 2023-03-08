@@ -17,7 +17,6 @@ Entropy minimization or pseudo labeling (without change training objective)
 - [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://openreview.net/forum?id=uXl3bZLkr3c), ICLR 2021.
 - [Fully Test-Time Adaptation for Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-87199-4_24), MICCAI 2021. Like tent, fine-tune by Regional nuclear-norm loss and Contour regularization loss.
 - [Bayesian Adaptation for Covariate Shift](https://proceedings.neurips.cc/paper/2021/hash/07ac7cd13fd0eb1654ccdbd222b81437-Abstract.html), NeurIPS 2021.
-- [Tailoring: encoding inductive biases by optimizing unsupervised objectives at prediction time](https://proceedings.neurips.cc/paper/2021/hash/f45cc474bff52cb1b2268a2f94a2abcf-Abstract.html), NeurIPS 2021.
 - [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html), NeurIPS 2021.
 - [Contrastive Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Contrastive_Test-Time_Adaptation_CVPR_2022_paper.html), CVPR 2022.
 
@@ -34,6 +33,11 @@ Pseudo labels (Accumulated errors from imperfect pseudo labels)
 - [If your data distribution shifts, use self-learning](https://arxiv.org/abs/2104.12928), Arxiv.
 - [On-target Adaptation](https://arxiv.org/abs/2109.01087), Arxiv. Learn the representation purely from target the while taking only the source predictions for supervision. Several stages; First adapt teacher model by InfoMax; then initialize target (student) model by contrastive learning from scratch; use teacher model to generate pseudo labels to fine-tune student model; Replace the teacher model by the latest student model to eliminate the accumulated errors from imperfect pseudo labels.
 - [TeST: Test-time Self-Training under Distribution Shift](https://arxiv.org/abs/2104.12928), Arxiv. Several stages; Intialize teacher and student model by source-trained model; Train teacher network by self-supervised contrastive learning; Train student network by pseudo label from teacher network and entropy minimization.
+
+Meta-learning
+- [Tailoring: encoding inductive biases by optimizing unsupervised objectives at prediction time](https://proceedings.neurips.cc/paper/2021/hash/f45cc474bff52cb1b2268a2f94a2abcf-Abstract.html), NeurIPS 2021. Adapt model with auxiliary losses on each test sample; meta-tailoring; Train the affine parameters of conditional normalization at inner loop; Train other parameters at outer loop.
+- [Test-Time Fast Adaptation for Dynamic Scene Deblurring via Meta-Auxiliary Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Chi_Test-Time_Fast_Adaptation_for_Dynamic_Scene_Deblurring_via_Meta-Auxiliary_Learning_CVPR_2021_paper.html), CVPR 2021. Meta-learn; image reconstruction as the auxiliary task; adapt on each single image.
+
 
 
 More insight of the fine-tuning based method.
