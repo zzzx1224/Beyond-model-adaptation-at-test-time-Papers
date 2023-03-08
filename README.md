@@ -15,7 +15,6 @@ Self-supervised (Auxillary model or loss during training)
 Entropy minimization or pseudo labeling (without change training objective)
 
 - [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://openreview.net/forum?id=uXl3bZLkr3c), ICLR 2021.
-- [If your data distribution shifts, use self-learning](https://arxiv.org/abs/2104.12928), Arxiv.
 - [Bayesian Adaptation for Covariate Shift](https://proceedings.neurips.cc/paper/2021/hash/07ac7cd13fd0eb1654ccdbd222b81437-Abstract.html), NeurIPS 2021.
 - [Tailoring: encoding inductive biases by optimizing unsupervised objectives at prediction time](https://proceedings.neurips.cc/paper/2021/hash/f45cc474bff52cb1b2268a2f94a2abcf-Abstract.html), NeurIPS 2021.
 - [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html), NeurIPS 2021.
@@ -28,6 +27,12 @@ Entropy minimization or pseudo labeling (without change training objective)
 - [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022. Sequential test-time training (sTTT): one pass test-time adaptation without change training objective; Iteratively update target cluster and do cluster alignment of source and target domain; inspired by semisupervised learning, introduce global feature alignment to avoid bad pseudo labels (also TTT++).
 - [MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption](https://proceedings.mlr.press/v151/bartler22a.html), AISTATS 2022.
 - [Towards Stable Test-time Adaptation in Dynamic Wild World](https://openreview.net/forum?id=g2YraF75Tj), ICLR 2023. Replace BN by IN and GN. To deal with the collapse of IN and GN, remove the samples with large gradients based on the entropy; and use ahrpness aware cross-entropy loss.
+
+Pseudo labels (Accumulated errors from imperfect pseudo labels)
+
+- [If your data distribution shifts, use self-learning](https://arxiv.org/abs/2104.12928), Arxiv.
+- [On-target Adaptation](https://arxiv.org/abs/2109.01087), Arxiv. Learn the representation purely from target the while taking only the source predictions for supervision. Several stages; First adapt teacher model by InfoMax; then initialize target (student) model by contrastive learning from scratch; use teacher model to generate pseudo labels to fine-tune student model; Replace the teacher model by the latest student model to eliminate the accumulated errors from imperfect pseudo labels.
+- [TeST: Test-time Self-Training under Distribution Shift](https://arxiv.org/abs/2104.12928), Arxiv. Several stages; Intialize teacher and student model by source-trained model; Train teacher network by self-supervised contrastive learning; Train student network by pseudo label from teacher network and entropy minimization.
 
 
 More insight of the fine-tuning based method.
