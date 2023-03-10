@@ -37,6 +37,15 @@ Update different parts of parameters:
 - [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=e8PVEkSa4Fq), NeurIPS 2022. Boost generalization in zero-shot manner. Fine-tune prompts at test time, with entropy minimization and confidence selection (only high confident ones) on the augmented single test sample.
 - [Deep Matching Prior: Test-Time Optimization for Dense Correspondence](https://openaccess.thecvf.com/content/ICCV2021/html/Hong_Deep_Matching_Prior_Test-Time_Optimization_for_Dense_Correspondence_ICCV_2021_paper.html), ICCV 2021. Test-time optimization for image-pair-specific prior of the matching network.
 
+Pseudo labels (Accumulated errors from imperfect pseudo labels)
+
+- [If your data distribution shifts, use self-learning](https://arxiv.org/abs/2104.12928), Arxiv. Hard pseudo-labling; Soft pseudo labeling (Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks; Empirical comparison of hard and soft label propagation for
+relational classification); Entropy minimization; Robust pseudo-labeling.
+- [On-target Adaptation](https://arxiv.org/abs/2109.01087), Arxiv. Learn the representation purely from target the while taking only the source predictions for supervision. Several stages; First adapt teacher model by InfoMax; then initialize target (student) model by contrastive learning from scratch; use teacher model to generate pseudo labels to fine-tune student model; Replace the teacher model by the latest student model to eliminate the accumulated errors from imperfect pseudo labels.
+- [Contrastive Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Contrastive_Test-Time_Adaptation_CVPR_2022_paper.html), CVPR 2022. Online pseudo label refinement with self-supervised contrastive learning.
+- [TeST: Test-time Self-Training under Distribution Shift](https://arxiv.org/abs/2104.12928), Arxiv. Several stages; Intialize teacher and student model by source-trained model; Train teacher network by self-supervised contrastive learning; Train student network by pseudo label from teacher network and entropy minimization.
+- [Test-Time Adaptation via Self-Training with Nearest Neighbor Information](https://openreview.net/forum?id=EzLtB4M1SbM), ICLR 2023. Generate pseudo labels using the nearest neighbors from a set composed of previous test data; fine-tune the trained classifier with the pseudo labels.
+- [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770), CVPR 2023. Reweight the loss based on the uncertainty (reliability) of the pseudo-labels; Refine pseudo labels by aggragating knoledge from neighboring samples.
 
 Problems of Tent (single sample; forgetting; not stable).
 - [MEMO: Test Time Robustness via Adaptation and Augmentation](https://openreview.net/forum?id=XrGEkCOREX2), NeurIPS 2022. Marginal Entropy minimization; Perform different data augmentations on each single test sample and then adapt (all of) the model parameters by minimizing the entropy of the model’s marginal output distribution across the augmentations. 
@@ -51,16 +60,6 @@ Problems of Tent (single sample; forgetting; not stable).
 
 
 - [Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576), Arxiv. Find that test-time adaptation is vulnerable to malicious data at test time in contrast to conventional machine learning and propose a new attack for test-time adaptation.
-
-Pseudo labels (Accumulated errors from imperfect pseudo labels)
-
-- [If your data distribution shifts, use self-learning](https://arxiv.org/abs/2104.12928), Arxiv. Hard pseudo-labling; Soft pseudo labeling (Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks; Empirical comparison of hard and soft label propagation for
-relational classification); Entropy minimization; Robust pseudo-labeling.
-- [On-target Adaptation](https://arxiv.org/abs/2109.01087), Arxiv. Learn the representation purely from target the while taking only the source predictions for supervision. Several stages; First adapt teacher model by InfoMax; then initialize target (student) model by contrastive learning from scratch; use teacher model to generate pseudo labels to fine-tune student model; Replace the teacher model by the latest student model to eliminate the accumulated errors from imperfect pseudo labels.
-- [Contrastive Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Contrastive_Test-Time_Adaptation_CVPR_2022_paper.html), CVPR 2022. Online pseudo label refinement with self-supervised contrastive learning.
-- [TeST: Test-time Self-Training under Distribution Shift](https://arxiv.org/abs/2104.12928), Arxiv. Several stages; Intialize teacher and student model by source-trained model; Train teacher network by self-supervised contrastive learning; Train student network by pseudo label from teacher network and entropy minimization.
-- [Test-Time Adaptation via Self-Training with Nearest Neighbor Information](https://openreview.net/forum?id=EzLtB4M1SbM), ICLR 2023. Generate pseudo labels using the nearest neighbors from a set composed of previous test data; fine-tune the trained classifier with the pseudo labels.
-- [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770), CVPR 2023. Reweight the loss based on the uncertainty (reliability) of the pseudo-labels; Refine pseudo labels by aggragating knoledge from neighboring samples.
 
 Meta-learning
 - [MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption](https://proceedings.mlr.press/v151/bartler22a.html), AISTATS 2022. Meta TTT; BYOL as the self-supervised loss.
