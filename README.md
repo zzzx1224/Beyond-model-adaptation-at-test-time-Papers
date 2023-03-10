@@ -68,7 +68,7 @@ Meta-learning
 - [Test-Time Fast Adaptation for Dynamic Scene Deblurring via Meta-Auxiliary Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Chi_Test-Time_Fast_Adaptation_for_Dynamic_Scene_Deblurring_via_Meta-Auxiliary_Learning_CVPR_2021_paper.html), CVPR 2021. Meta-learn; image reconstruction as the auxiliary task; adapt on each single image.
 
 
-### - Prototype-based/context-based methods (Function-inferring methods, optimization free)
+### - Model/Function-inferring methods, optimization free)
 Efficiently infer the functions/neural network parameters by a single forward pass. (Online or adapt to each sample)
 - [Adaptive Methods for Real-World Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Dubey_Adaptive_Methods_for_Real-World_Domain_Generalization_CVPR_2021_paper.html?ref=https://githubhelp.com), CVPR 2021.
 - [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html), NeurIPS 2021. Like dubey et al.
