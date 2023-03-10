@@ -4,9 +4,9 @@
 
 ### Model adaptation
 
-### - Fine-tuning-based methods
+### - Model Fine-tuning
 
-Self-supervised (Auxillary model or loss during training)
+Test-time training
 
 - [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](http://proceedings.mlr.press/v119/sun20b.html), ICML 2020. First test-time training; auxilliary self-supervised loss at training and test time; Online & offline one-shot
 - [Test-time Unsupervised Domain Adaptation](https://arxiv.org/abs/2010.01926), MICCAI 2020. Adversarial loss and augmentation consistency in "one-shot" case; medical image; MRI.
@@ -16,7 +16,7 @@ Self-supervised (Auxillary model or loss during training)
 - [Towards Multi-domain Single Image Dehazing via Test-time Training](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Towards_Multi-Domain_Single_Image_Dehazing_via_Test-Time_Training_CVPR_2022_paper.html), CVPR 2022. Test-time training; Helper network to evaluate dehazing quality and adjust model parameters via self-supervision; Meta-learning to make the objectives of the dehazing and helper networks consistent with each other.
 
 
-Entropy minimization or pseudo labeling (without change training objective, Fully test time adaptation)
+Fully test-time adaptation
 
 - [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://openreview.net/forum?id=uXl3bZLkr3c), ICLR 2021.
 - [Bayesian Adaptation for Covariate Shift](https://proceedings.neurips.cc/paper/2021/hash/07ac7cd13fd0eb1654ccdbd222b81437-Abstract.html), NeurIPS 2021. Probabilistic modeling for covariate shift and bayesian adaptation.
