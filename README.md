@@ -22,6 +22,13 @@ Fully test-time adaptation
 - [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://openreview.net/forum?id=uXl3bZLkr3c), ICLR 2021.
 - [Bayesian Adaptation for Covariate Shift](https://proceedings.neurips.cc/paper/2021/hash/07ac7cd13fd0eb1654ccdbd222b81437-Abstract.html), NeurIPS 2021. Probabilistic modeling for covariate shift and bayesian adaptation.
 
+
+Update different parts of parameters:
+
+- [Deep Matching Prior: Test-Time Optimization for Dense Correspondence](https://openaccess.thecvf.com/content/ICCV2021/html/Hong_Deep_Matching_Prior_Test-Time_Optimization_for_Dense_Correspondence_ICCV_2021_paper.html), ICCV 2021. Test-time optimization for image-pair-specific prior of the matching network.
+- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=e8PVEkSa4Fq), NeurIPS 2022. Boost generalization in zero-shot manner. Fine-tune prompts at test time, with entropy minimization and confidence selection (only high confident ones) on the augmented single test sample.
+- [Surgical Fine-Tuning Improves Adaptation to Distribution Shifts](https://openreview.net/forum?id=APuPRxjHvZ), ICLR 2023. Tune only one block of parameters and freeze the remaining parameters, outperforms full fine-tuning on a range of distribution shifts; Tuning different blocks performs best for different types of distribution shifts. Theoretically, we prove that for two-layer neural networks in an idealized setting, first-layer tuning can outperform fine-tuning all layers. Intuitively, fine-tuning more parameters on a small target dataset can cause information learned during pre-training to be forgotten, and the relevant information depends on the type of shift. Propose automatically finding an adequate subset of layers to perform surgical fine-tuning on.
+
 Investigation on loss functions.
 - [Fully Test-Time Adaptation for Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-87199-4_24), MICCAI 2021. Like tent, fine-tune by Regional nuclear-norm loss and Contour regularization loss.
 - [Test time Adaptation through Perturbation Robustness](https://openreview.net/forum?id=GbBeI5z86uD), NeurIPS 2021, Workshop. Fully TTA; data augmentation consistency loss & entropy minimization.
@@ -29,12 +36,6 @@ Investigation on loss functions.
 - [Improving Test-Time Adaptation via Shift-agnostic Weight Regularization and Nearest Source Prototypes](https://link.springer.com/chapter/10.1007/978-3-031-19827-4_26), ECCV 2022. Learn layer-wise penalty by the gradient similarity of original and transformed source data; Use the layer-wise weight penalty to less update the shift-agnostic weights; use nearest source prototypes as an auxilliary loss for adaptation.
 - [Test Time Adaptation via Conjugate Pseudo-labels](https://openreview.net/forum?id=2yvUYc-YNUH), NeurIPS 2022. Reformulate the loss function of test-time adaptation. Not only entropy minimization.
 - [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022. Sequential test-time training (sTTT): one pass test-time adaptation without change training objective; Iteratively update target cluster and do cluster alignment of source and target domain; inspired by semisupervised learning, introduce global feature alignment to avoid bad pseudo labels (also TTT++).
-
-Update different parts of parameters:
-
-- [Surgical Fine-Tuning Improves Adaptation to Distribution Shifts](https://openreview.net/forum?id=APuPRxjHvZ), ICLR 2023. Tune only one block of parameters and freeze the remaining parameters, outperforms full fine-tuning on a range of distribution shifts; Tuning different blocks performs best for different types of distribution shifts. Theoretically, we prove that for two-layer neural networks in an idealized setting, first-layer tuning can outperform fine-tuning all layers. Intuitively, fine-tuning more parameters on a small target dataset can cause information learned during pre-training to be forgotten, and the relevant information depends on the type of shift. Propose automatically finding an adequate subset of layers to perform surgical fine-tuning on.
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=e8PVEkSa4Fq), NeurIPS 2022. Boost generalization in zero-shot manner. Fine-tune prompts at test time, with entropy minimization and confidence selection (only high confident ones) on the augmented single test sample.
-- [Deep Matching Prior: Test-Time Optimization for Dense Correspondence](https://openaccess.thecvf.com/content/ICCV2021/html/Hong_Deep_Matching_Prior_Test-Time_Optimization_for_Dense_Correspondence_ICCV_2021_paper.html), ICCV 2021. Test-time optimization for image-pair-specific prior of the matching network.
 
 Pseudo labels (Accumulated errors from imperfect pseudo labels)
 
