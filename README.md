@@ -27,7 +27,8 @@ Investigation on loss functions.
 - [Fully Test-Time Adaptation for Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-87199-4_24), MICCAI 2021. Like tent, fine-tune by Regional nuclear-norm loss and Contour regularization loss.
 - [Test time Adaptation through Perturbation Robustness](https://openreview.net/forum?id=GbBeI5z86uD), NeurIPS 2021, Workshop. Fully TTA; data augmentation consistency loss & entropy minimization.
 - [Improving Test-Time Adaptation via Shift-agnostic Weight Regularization and Nearest Source Prototypes](https://link.springer.com/chapter/10.1007/978-3-031-19827-4_26), ECCV 2022. Learn layer-wise penalty by the gradient similarity of original and transformed source data; Use the layer-wise weight penalty to less update the shift-agnostic weights; use nearest source prototypes as an auxilliary loss for adaptation.
-- [Test-Time Training with Masked Autoencoders](https://openreview.net/forum?id=SHMi1b7sjXk), NeurIPS 2022.
+- [Test-Time Training with Masked Autoencoders](https://openreview.net/forum?id=SHMi1b7sjXk), NeurIPS 2022. Optimizing a model
+for each test input using self-supervision through masked autoencoders.
 - [Test Time Adaptation via Conjugate Pseudo-labels](https://openreview.net/forum?id=2yvUYc-YNUH), NeurIPS 2022. Reformulate the loss function of test-time adaptation. Not only entropy minimization.
 - [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022. Sequential test-time training (sTTT): one pass test-time adaptation without change training objective; Iteratively update target cluster and do cluster alignment of source and target domain; inspired by semisupervised learning, introduce global feature alignment to avoid bad pseudo labels (also TTT++).
 
