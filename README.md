@@ -34,8 +34,8 @@ Investigation on loss functions.
 - [Test time Adaptation through Perturbation Robustness](https://openreview.net/forum?id=GbBeI5z86uD), NeurIPS 2021, Workshop. Fully TTA; data augmentation consistency loss & entropy minimization.
 - [Efficient Test-Time Model Adaptation without Forgetting](https://arxiv.org/abs/2204.02610), ICML 2022. Adaptive entropy minimization; adaptation on low-entropy samples makes more contribution than high- entropy ones; adaptation on test samples with very high entropy may hurt performance; Select low-entropy (high confident) samples; Anti-forgetting with Fisher Regularization.
 - [Improving Test-Time Adaptation via Shift-agnostic Weight Regularization and Nearest Source Prototypes](https://link.springer.com/chapter/10.1007/978-3-031-19827-4_26), ECCV 2022. Learn layer-wise penalty by the gradient similarity of original and transformed source data; Use the layer-wise weight penalty to less update the shift-agnostic weights; use nearest source prototypes as an auxilliary loss for adaptation.
-- [Test Time Adaptation via Conjugate Pseudo-labels](https://openreview.net/forum?id=2yvUYc-YNUH), NeurIPS 2022. Reformulate the loss function of test-time adaptation. Not only entropy minimization.
 - [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022. Sequential test-time training (sTTT): one pass test-time adaptation without change training objective; Iteratively update target cluster and do cluster alignment of source and target domain; inspired by semisupervised learning, introduce global feature alignment to avoid bad pseudo labels (also TTT++).
+- [Test Time Adaptation via Conjugate Pseudo-labels](https://openreview.net/forum?id=2yvUYc-YNUH), NeurIPS 2022. Reformulate the loss function of test-time adaptation. Not only entropy minimization.
 
 Pseudo labels (Accumulated errors from imperfect pseudo labels)
 
