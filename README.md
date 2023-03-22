@@ -96,12 +96,16 @@ Combine source and target statistics.
 - [Improving robustness against common corruptions by covariate shift adaptation](https://proceedings.neurips.cc/paper/2020/hash/85690f81aadc1749175c187784afc9ee-Abstract.html), NeurIPS 2020. Correct the BN statistics by the target statistics; weighted sum of the source and target statistics.
 - [Test-time Batch Statistics Calibration for Covariate Shift](https://arxiv.org/abs/2110.04065), Arxiv. α-BN to calibrate the batch statistics by mixing up the source and target statistics for both alleviating the domain shift and preserving the discriminative structures.
 - [SITA: Single Image Test-time Adaptation](https://arxiv.org/abs/2112.02355), Arxiv. Combine source and target BN statistics by weighted sum; Get target BN statistics with augmentation of single sample.
-- [MixNorm: Test-Time Adaptation Through Online Normalization Estimation](https://arxiv.org/abs/2110.11478), Arxiv. Global statistics: initialized by training statistics and updated by the statistics on each new sample; Local statistics: statistics of the augmented target samples; Mix global and local statistics.
+- [TTN: A Domain-Shift Aware Batch Normalization in Test-Time Adaptation](https://openreview.net/forum?id=EQfeudmWLQ), ICLR 2023. Propose post-training stage to learn the coefficient for combining the source BN statistics and target BN statistics. The coefficient is initialized by a proposed gradient distance score. (measure the domain-shift sensitivity by comparing gradients.)
+
+(online update)
 - [Test-time Batch Normalization](https://arxiv.org/abs/2205.10210), Arxiv. Gradient preserving batch norm. Moving average of source and target statistics.
+- [MixNorm: Test-Time Adaptation Through Online Normalization Estimation](https://arxiv.org/abs/2110.11478), Arxiv. Global statistics: initialized by training statistics and updated by the statistics on each new sample; Local statistics: statistics of the augmented target samples; Mix global and local statistics.
 - [The Norm Must Go On: Dynamic Unsupervised Domain Adaptation by Normalization](https://openaccess.thecvf.com/content/CVPR2022/html/Mirza_The_Norm_Must_Go_On_Dynamic_Unsupervised_Domain_Adaptation_by_CVPR_2022_paper.html), CVPR 2022. Dynamically update the BN statistics; Adaptive momentum for updating the statistics, mean and variance.
+
+(selectively update)
 - [NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation](https://openreview.net/forum?id=E9HNxrCFZPV), NeurIPS 2022. Handle temporally correlated test-time samples; Instance-aware batch normalization. Calculate the difference between the previous BN statistics and the IN statistics of each sample to determine whether use BN or IN; only one forward pass with each single sample for test-time adaptation; Prediction-balanced reservoir sampling for mimicking iid samples from non-iid streams.
 - [GANs Spatial Control via Inference-Time Adaptive Normalization](https://openaccess.thecvf.com/content/WACV2022/html/Jakoel_GANs_Spatial_Control_via_Inference-Time_Adaptive_Normalization_WACV_2022_paper.html), WACV 2022. Inference time adaptive normalization; apply different normalizations at different region of the image for spatial control.
-- [TTN: A Domain-Shift Aware Batch Normalization in Test-Time Adaptation](https://openreview.net/forum?id=EQfeudmWLQ), ICLR 2023. Propose post-training stage to learn the coefficient for combining the source BN statistics and target BN statistics. The coefficient is initialized by a proposed gradient distance score. (measure the domain-shift sensitivity by comparing gradients.)
 
 Infer target statistics.
 
