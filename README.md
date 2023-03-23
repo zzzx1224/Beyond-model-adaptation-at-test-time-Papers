@@ -101,7 +101,7 @@ Combine source and target statistics.
 (online update)
 - [Test-time Batch Normalization](https://arxiv.org/abs/2205.10210), Arxiv. Gradient preserving batch norm. Moving average of source and target statistics.
 - [MixNorm: Test-Time Adaptation Through Online Normalization Estimation](https://arxiv.org/abs/2110.11478), Arxiv. Global statistics: initialized by training statistics and updated by the statistics on each new sample; Local statistics: statistics of the augmented target samples; Mix global and local statistics.
-- [The Norm Must Go On: Dynamic Unsupervised Domain Adaptation by Normalization](https://openaccess.thecvf.com/content/CVPR2022/html/Mirza_The_Norm_Must_Go_On_Dynamic_Unsupervised_Domain_Adaptation_by_CVPR_2022_paper.html), CVPR 2022. Dynamically update the BN statistics; Adaptive momentum for updating the statistics, mean and variance.
+- [The Norm Must Go On: Dynamic Unsupervised Domain Adaptation by Normalization](https://openaccess.thecvf.com/content/CVPR2022/html/Mirza_The_Norm_Must_Go_On_Dynamic_Unsupervised_Domain_Adaptation_by_CVPR_2022_paper.html), CVPR 2022. Dynamically update the BN statistics; Adaptive momentum for updating the statistics, mean and variance. Single sample with augmentation.
 
 (selectively update)
 - [NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation](https://openreview.net/forum?id=E9HNxrCFZPV), NeurIPS 2022. Handle temporally correlated test-time samples; Instance-aware batch normalization. Calculate the difference between the previous BN statistics and the IN statistics of each sample to determine whether use BN or IN; only one forward pass with each single sample for test-time adaptation; Prediction-balanced reservoir sampling for mimicking iid samples from non-iid streams.
