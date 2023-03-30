@@ -29,6 +29,7 @@ Update different parts of parameters:
 - [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=e8PVEkSa4Fq), NeurIPS 2022. Boost generalization in zero-shot manner. Fine-tune prompts at test time, with entropy minimization and confidence selection (only high confident ones) on the augmented single test sample.
 - [Surgical Fine-Tuning Improves Adaptation to Distribution Shifts](https://openreview.net/forum?id=APuPRxjHvZ), ICLR 2023. Tune only one block of parameters and freeze the remaining parameters, outperforms full fine-tuning on a range of distribution shifts; Tuning different blocks performs best for different types of distribution shifts. Theoretically, we prove that for two-layer neural networks in an idealized setting, first-layer tuning can outperform fine-tuning all layers. Intuitively, fine-tuning more parameters on a small target dataset can cause information learned during pre-training to be forgotten, and the relevant information depends on the type of shift. Propose automatically finding an adequate subset of layers to perform surgical fine-tuning on.
 - [Neuro-Modulated Hebbian Learning for Fully Test-Time Adaptation](https://arxiv.org/abs/2303.00914), Arxiv. Fine-tune the first convoutional layer by bottom-up feed-forward adaptation process, Hebbian learning and fine-tune the neuromodulator by top-down feedback-based optimization like entropy minimization.
+- [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904), CVPR 2023. Introduce meta-networks composed of a BN layer and a Conv layer; Adapt only the meta-network for memory efficient.
 
 Investigation on loss functions.
 - [Fully Test-Time Adaptation for Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-87199-4_24), MICCAI 2021. Like tent, fine-tune by Regional nuclear-norm loss and Contour regularization loss.
@@ -47,19 +48,22 @@ relational classification); Entropy minimization; Robust pseudo-labeling.
 - [Contrastive Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Contrastive_Test-Time_Adaptation_CVPR_2022_paper.html), CVPR 2022. Online pseudo label refinement with self-supervised contrastive learning.
 - [Test-Time Adaptation via Self-Training with Nearest Neighbor Information](https://openreview.net/forum?id=EzLtB4M1SbM), ICLR 2023. Generate pseudo labels using the nearest neighbors from a set composed of previous test data; fine-tune the trained classifier with the pseudo labels.
 - [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770), CVPR 2023. Reweight the loss based on the uncertainty (reliability) of the pseudo-labels; Refine pseudo labels by aggragating knoledge from neighboring samples.
+- [TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation](https://arxiv.org/abs/2303.09870), CVPR 2023. Flipped Cross-Entropy; soft pseudo labels from teacher model together with entropy maximization, which is tightly connected with mutual information. With learnable adversarial augmentation of the target data during adaptation.
 
 Problems of Tent (single sample; forgetting; not stable).
-- [MEMO: Test Time Robustness via Adaptation and Augmentation](https://openreview.net/forum?id=XrGEkCOREX2), NeurIPS 2022. Marginal Entropy minimization; Perform different data augmentations on each single test sample and then adapt (all of) the model parameters by minimizing the entropy of the model’s marginal output distribution across the augmentations. (TTT, prompt tuning also use augmentation)
-- [Efficient Test-Time Model Adaptation without Forgetting](https://arxiv.org/abs/2204.02610), ICML 2022. Adaptive entropy minimization; adaptation on low-entropy samples makes more contribution than high- entropy ones; adaptation on test samples with very high entropy may hurt performance; Select low-entropy (high confident) samples; Anti-forgetting with Fisher Regularization.
-- [Towards Stable Test-time Adaptation in Dynamic Wild World](https://openreview.net/forum?id=g2YraF75Tj), ICLR 2023. Replace BN by IN and GN. To deal with the collapse of IN and GN, remove the samples with large gradients based on the entropy; and use sharpness aware cross-entropy loss.
 
 (Continual TTA (forgetting, not stable):)
 
 - [Continual Test-Time Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.html), CVPR 2022. Current self-training methods is effective when the test data are drawn from the same stationary domain, but unstable in the countinually changing environment. (Also in stable TTA in ICLR 2023). Error accumulation and catastrophic forgetting (ICML 2022); Use weighted averaged and augmentation averaged predictions for better pseudo labels against error accumulation; stochastically small parts of source model parameters storage for forgetting.
-
+- [Efficient Test-Time Model Adaptation without Forgetting](https://arxiv.org/abs/2204.02610), ICML 2022. Adaptive entropy minimization; adaptation on low-entropy samples makes more contribution than high- entropy ones; adaptation on test samples with very high entropy may hurt performance; Select low-entropy (high confident) samples; Anti-forgetting with Fisher Regularization.
+- [Towards Stable Test-time Adaptation in Dynamic Wild World](https://openreview.net/forum?id=g2YraF75Tj), ICLR 2023. Replace BN by IN and GN. To deal with the collapse of IN and GN, remove the samples with large gradients based on the entropy; and use sharpness aware cross-entropy loss.
 - [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://arxiv.org/abs/2212.09713), Arxiv. Bayesian adaptation for continual test-time adaptation; with moving average of student to teacher (like continue TTA); Fisher information matrix based data-driven parameter restoration.
+- [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904), CVPR 2023. Introduce meta-networks composed of a BN layer and a Conv layer; Adapt only the meta-network for memory efficient; Preserve source model by selfdistilled regularization (distance of orginal output and adapted output).
 
+single sample
+- [MEMO: Test Time Robustness via Adaptation and Augmentation](https://openreview.net/forum?id=XrGEkCOREX2), NeurIPS 2022. Marginal Entropy minimization; Perform different data augmentations on each single test sample and then adapt (all of) the model parameters by minimizing the entropy of the model’s marginal output distribution across the augmentations. (TTT, prompt tuning also use augmentation)
 
+other problems
 - [Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576), Arxiv. Find that test-time adaptation is vulnerable to malicious data at test time in contrast to conventional machine learning and propose a new attack for test-time adaptation.
 
 Meta-learning
@@ -115,6 +119,7 @@ Infer target statistics.
 ### - Generation-based methods
 - [Neural Networks with Recurrent Generative Feedback](https://proceedings.neurips.cc/paper/2020/hash/0660895c22f8a14eb039bfb9beb0778f-Abstract.html), NeurIPS 2020. The first to do recurrent adaptation/update/generation for robust object recognition. (Use the motivation in this paper.)
 - [Generalization on Unseen Domains via Inference-Time Label-Preserving Target Projections](https://openaccess.thecvf.com/content/CVPR2021/html/Pandey_Generalization_on_Unseen_Domains_via_Inference-Time_Label-Preserving_Target_Projections_CVPR_2021_paper.html), CVPR 2021.
+- [Diffusion Models for Adversarial Purification](https://arxiv.org/abs/2205.07460), ICML 2022. Diffusion model for removing adversarial purtubations.
 - [Energy-Based Test Sample Adaptation for Domain Generalization](https://openreview.net/forum?id=3dnrKbeVatv), ICLR 2023.
 - [Back to the Source: Diffusion-Driven Test-Time Adaptation](https://arxiv.org/abs/2207.03442), CVPR 2023. Diffusion model for sample adaptation. Good motivation and intuition.
 
