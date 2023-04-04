@@ -67,13 +67,6 @@ single sample
 other problems
 - [Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576), Arxiv. Find that test-time adaptation is vulnerable to malicious data at test time in contrast to conventional machine learning and propose a new attack for test-time adaptation.
 
-Meta-learning
-- [MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption](https://proceedings.mlr.press/v151/bartler22a.html), AISTATS 2022. Meta TTT; BYOL as the self-supervised loss.
-- [Tailoring: encoding inductive biases by optimizing unsupervised objectives at prediction time](https://proceedings.neurips.cc/paper/2021/hash/f45cc474bff52cb1b2268a2f94a2abcf-Abstract.html), NeurIPS 2021. Adapt model with auxiliary losses on each test sample; meta-tailoring; Train the affine parameters of conditional normalization at inner loop; Train other parameters at outer loop.
-- [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html), NeurIPS 2021. meta test-time training.
-- [Test-Time Fast Adaptation for Dynamic Scene Deblurring via Meta-Auxiliary Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Chi_Test-Time_Fast_Adaptation_for_Dynamic_Scene_Deblurring_via_Meta-Auxiliary_Learning_CVPR_2021_paper.html), CVPR 2021. Meta-learn; image reconstruction as the auxiliary task; adapt on each single image.
-
-
 ### - Model/Function-inferring methods, optimization free)
 Efficiently infer the functions/neural network parameters by a single forward pass. (Online or adapt to each sample)
 - [Adaptive Methods for Real-World Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Dubey_Adaptive_Methods_for_Real-World_Domain_Generalization_CVPR_2021_paper.html?ref=https://githubhelp.com), CVPR 2021.
@@ -158,6 +151,28 @@ Infer target statistics.
 - [Energy-Based Test Sample Adaptation for Domain Generalization](https://openreview.net/forum?id=3dnrKbeVatv), ICLR 2023.
 
 ### Adaptation strategies
+
+Meta-learning
+- [MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption](https://proceedings.mlr.press/v151/bartler22a.html), AISTATS 2022. Meta TTT; BYOL as the self-supervised loss.
+- [Tailoring: encoding inductive biases by optimizing unsupervised objectives at prediction time](https://proceedings.neurips.cc/paper/2021/hash/f45cc474bff52cb1b2268a2f94a2abcf-Abstract.html), NeurIPS 2021. Adapt model with auxiliary losses on each test sample; meta-tailoring; Train the affine parameters of conditional normalization at inner loop; Train other parameters at outer loop.
+- [Test-Time Fast Adaptation for Dynamic Scene Deblurring via Meta-Auxiliary Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Chi_Test-Time_Fast_Adaptation_for_Dynamic_Scene_Deblurring_via_Meta-Auxiliary_Learning_CVPR_2021_paper.html), CVPR 2021. Meta-learn; image reconstruction as the auxiliary task; adapt on each single image.
+- [Towards Multi-domain Single Image Dehazing via Test-time Training](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Towards_Multi-Domain_Single_Image_Dehazing_via_Test-Time_Training_CVPR_2022_paper.html), CVPR 2022. Test-time training; Helper network to evaluate dehazing quality and adjust model parameters via self-supervision; Meta-learning to make the objectives of the dehazing and helper networks consistent with each other.
+- [Sketch3T: Test-Time Training for Zero-Shot SBIR](https://openaccess.thecvf.com/content/CVPR2022/html/Sain_Sketch3T_Test-Time_Training_for_Zero-Shot_SBIR_CVPR_2022_paper.html), CVPR 2022. Simulate test paradigm during training; reconstruction loss as the auxiliary loss; adapt using one sketch sample.
+- [Meta-DMoE: Adapting to Domain Shift by Meta-Distillation from Mixture-of-Experts](https://arxiv.org/abs/2210.03885), NeurIPS, 2022. Meta-distillation. Learn to distill positive knowledge (aggregator) and achieve fast adaptation (student model); a set of target samples as the support set.
+- [Test-time Adaptation for Better Adversarial Robustness](https://openreview.net/forum?id=rUxKM6u8WER), Openreview, 2023. Meta adversarial training to find a good starting point of the training phase and strenth the correlation between the self supervised learning and original classification task.
+- [Meta-Auxiliary Learning for Future Depth Prediction in Videos](https://openaccess.thecvf.com/content/WACV2023/html/Liu_Meta-Auxiliary_Learning_for_Future_Depth_Prediction_in_Videos_WACV_2023_paper.html), WACV, 2023. Adapt the model to a specific test video; image reconstruction as auxiliary task; meta-learn the adaptation with auxiliary task and the strength the relation between auxiliary task and primary task.
+- [OST: Improving Generalization of DeepFake Detection via One-Shot Test-Time Training](https://openreview.net/forum?id=YPoRoad6gzY). NeurIPS 2022. Meta-learn the initialization of the model, for robust and fast, one-step gradient descent, one-shot test-time adaptation.
+- [Test-Time Adaptation for Video Frame Interpolation via Meta-Learning](https://ieeexplore.ieee.org/abstract/document/9625774), TPAMI 2022. Meta-learn to adapt with auxiliary tasks.
+- [Meta-Learning for Adaptation of Deep Optical Flow Networks](https://openaccess.thecvf.com/content/WACV2023/html/Min_Meta-Learning_for_Adaptation_of_Deep_Optical_Flow_Networks_WACV_2023_paper.html), WACV 2023. Instance-wise TTA, meta-learn to adapt with the unsupervised task.
+- [Domain-Conditioned Normalization for Test-Time Domain Generalization](https://link.springer.com/chapter/10.1007/978-3-031-25085-9_17), ECCV 2022 Workshop. Similar to MetaNorm, but inferring both BN statistics and rescaling parameters.
+
+
+- [Mimic Embedding via Adaptive Aggregation: Learning Generalizable Person Re-identification](https://link.springer.com/chapter/10.1007/978-3-031-19781-9_22), ECCV 2022. Episodic training, learn to aggregate the target IN statistics and source statistics.
+- [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html), NeurIPS 2021. meta test-time training.
+- [Learning to Generalize across Domains on Single Test Samples](https://openreview.net/forum?id=CIaQKbTBwtU), ICLR 2022.
+- [Variational On-the-Fly Personalization](https://proceedings.mlr.press/v162/kim22e.html), ICML 2022. Estimate model weights on-the-fly based on the personality of a small amount of personal data, through a variational hyper-personalizer.
+- [Dynamic Domain Generalization](https://arxiv.org/abs/2205.13913), Arxiv. Meta adjuster; adjusting the model without training.
+- [MetaNorm: Learning to Normalize Few-Shot Batches Across Domains](https://openreview.net/forum?id=9z_dNsC4B5t), ICLR 2021.
 
 ### - Online adaptation
 - [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](http://proceedings.mlr.press/v119/sun20b.html), ICML 2020.
