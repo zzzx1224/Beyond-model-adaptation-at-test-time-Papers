@@ -5,7 +5,7 @@ This repository includes the mentioned test-time adaptation papers in **Beyond M
 ## What to adapt
 
 We categorize the test-time adaptation methods into five main categories, based on what they adapt: the **model**, the **inference**, the **normalization**, the **sample**, or the **prompt**. 
-The links of the papers are provided in [What to adapt](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/What%20to%20adapt.md).
+The categorizations and paper links are provided in [What to adapt](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/What%20to%20adapt.md).
 
 ## Training & adaptation settings
 
