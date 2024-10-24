@@ -9,7 +9,7 @@ The categorizations and paper links are provided in [What to adapt](https://gith
 
 ## Training & adaptation settings
 
-We also summarize the main **training** and **adaptation** settings of the test-time adaptation methods, details and papers are in [How to prepare](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/How%20to%20prepare%20for%20adaptation.md) and [How to adapt](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/How%20to%20adapt.md), respectively.
+We also summarize the main **training** and **adaptation** settings of the test-time adaptation methods, details and papers are in [How to prepare](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/How%20to%20prepare%20for%20adaptation.md) (training settings) and [How to adapt](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/How%20to%20adapt.md) (adaptation settings), respectively.
 
 ## Datasets
 
