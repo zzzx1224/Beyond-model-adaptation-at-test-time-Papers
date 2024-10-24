@@ -28,7 +28,7 @@ Survey papers:
 Source-free domain adaptation ([papers](https://github.com/YuejiangLIU/awesome-source-free-test-time-adaptation))
 
 Survey paper:
-- Source-Free Unsupervised Domain Adaptation: A Survey [[arxiv](https://arxiv.org/pdf/2301.00265.pdf)]
+- [Source-Free Unsupervised Domain Adaptation: A Survey](https://arxiv.org/pdf/2301.00265.pdf)
 
 There are also two recent survey papers for test-time adaptation.
 - [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://arxiv.org/abs/2303.15361)
