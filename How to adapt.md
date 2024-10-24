@@ -187,6 +187,7 @@ Without augmentation:
 Dynamic inference
 - Model adaptation
 
+
 - Inference adaptation
 
 - Normalization adaptation
@@ -199,4 +200,5 @@ Dynamic inference
 - [Efficient Test-Time Model Adaptation without Forgetting](https://arxiv.org/abs/2204.02610), ICML 2022. Adaptive entropy minimization; adaptation on low-entropy samples makes more contribution than high- entropy ones; adaptation on test samples with very high entropy may hurt performance; Select low-entropy (high confident) samples; Anti-forgetting with Fisher Regularization.
 - [Towards Stable Test-time Adaptation in Dynamic Wild World](https://openreview.net/forum?id=g2YraF75Tj), ICLR 2023. Replace BN by IN and GN. To deal with the collapse of IN and GN, remove the samples with large gradients based on the entropy; and use sharpness aware cross-entropy loss.
 - [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://arxiv.org/abs/2212.09713), Arxiv. Bayesian adaptation for continual test-time adaptation; with moving average of student to teacher (like continue TTA); Fisher information matrix based data-driven parameter restoration.
-- [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904), CVPR 2023. Introduce meta-networks composed of a BN layer and a Conv layer; Adapt only the meta-network for memory efficient; Preserve source model by selfdistilled regularization (distance of orginal output and adapted output).
+- [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904), CVPR 2023.
+- [Robust test-time adaptation in dynamic scenarios](https://openaccess.thecvf.com/content/CVPR2023/papers/Yuan_Robust_Test-Time_Adaptation_in_Dynamic_Scenarios_CVPR_2023_paper.pdf), CVPR 2023.
