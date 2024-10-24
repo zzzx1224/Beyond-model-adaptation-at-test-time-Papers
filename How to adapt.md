@@ -33,6 +33,7 @@ Model adaptation
 - [Towards Open-Set Test-Time Adaptation Utilizing the Wisdom of Crowds in Entropy Minimization](https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Towards_Open-Set_Test-Time_Adaptation_Utilizing_the_Wisdom_of_Crowds_in_ICCV_2023_paper.pdf), ICCV 2023.
 - [DomainAdaptor: A Novel Approach to Test-time Adaptation](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_DomainAdaptor_A_Novel_Approach_to_Test-time_Adaptation_ICCV_2023_paper.html), ICCV 2023.
 - [TEA: Test-time Energy Adaptation](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_TEA_Test-time_Energy_Adaptation_CVPR_2024_paper.pdf), CVPR 2024.
+- [Unified Entropy Optimization for Open-Set Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Gao_Unified_Entropy_Optimization_for_Open-Set_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 
 - [If your data distribution shifts, use self-learning](https://arxiv.org/abs/2104.12928), TMLR 2021.
 - [On-target Adaptation](https://arxiv.org/abs/2109.01087), arXiv 2021.
