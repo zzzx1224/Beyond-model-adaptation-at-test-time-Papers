@@ -1,5 +1,8 @@
 ## What to adapt
 
+We categorize the test-time adaptation methods into five main categories: **model adaptation**, **inference adaptation**, **normalization adaptation**, **sample adaptation**, or **prompt adaptation**.
+Related literature and links are in the following:
+
 ### Model Adaptation
 
 Auxiliary Self-supervision
