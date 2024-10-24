@@ -16,7 +16,6 @@ Model adaptation
 - [Towards Open-Set Test-Time Adaptation Utilizing the Wisdom of Crowds in Entropy Minimization](https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Towards_Open-Set_Test-Time_Adaptation_Utilizing_the_Wisdom_of_Crowds_in_ICCV_2023_paper.pdf), ICCV 2023.
 - [DomainAdaptor: A Novel Approach to Test-time Adaptation](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_DomainAdaptor_A_Novel_Approach_to_Test-time_Adaptation_ICCV_2023_paper.html), ICCV 2023.
 - [TEA: Test-time Energy Adaptation](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_TEA_Test-time_Energy_Adaptation_CVPR_2024_paper.pdf), CVPR 2024.
-
 - [Continual Test-Time Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.html), CVPR 2022.
 - [Contrastive Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Contrastive_Test-Time_Adaptation_CVPR_2022_paper.html), CVPR 2022.
 - [Test Time Adaptation via Conjugate Pseudo-labels](https://proceedings.neurips.cc/paper_files/paper/2022/hash/28e9eff897f98372409b40ae1ed3ea4c-Abstract-Conference.html), NeurIPS 2022.
@@ -24,7 +23,6 @@ Model adaptation
 - [Test-Time Adaptation via Self-Training with Nearest Neighbor Information](https://openreview.net/forum?id=EzLtB4M1SbM), ICLR 2023.
 - [TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation](https://openaccess.thecvf.com/content/CVPR2023/html/Tomar_TeSLA_Test-Time_Self-Learning_With_Automatic_Adversarial_Augmentation_CVPR_2023_paper.html), CVPR 2023.
 - [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770), CVPR 2023.
-
 - [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022.
 - [Feature Alignment and Uniformity for Test Time Adaptation](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Feature_Alignment_and_Uniformity_for_Test_Time_Adaptation_CVPR_2023_paper.html), CVPR 2023.
 - [TIPI: Test Time Adaptation With Transformation Invariance](https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html), CVPR 2023.
@@ -38,7 +36,6 @@ Inference adaptation
 Normalization adaptation
 - [Evaluating Prediction-Time Batch Normalization for Robustness under Covariate Shift](https://arxiv.org/abs/2006.10963), arXiv 2020.
 - [NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation](https://proceedings.neurips.cc/paper_files/paper/2022/hash/ae6c7dbd9429b3a75c41b5fb47e57c9e-Abstract-Conference.html), NeurIPS 2022.
-
 - [Improving robustness against common corruptions by covariate shift adaptation](https://proceedings.neurips.cc/paper/2020/hash/85690f81aadc1749175c187784afc9ee-Abstract.html), NeurIPS 2020. 
 - [Test-time Batch Statistics Calibration for Covariate Shift](https://arxiv.org/abs/2110.04065), arXiv 2021.
 - [SITA: Single Image Test-time Adaptation](https://arxiv.org/abs/2112.02355), arXiv 2021.
