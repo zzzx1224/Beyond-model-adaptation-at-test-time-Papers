@@ -17,15 +17,15 @@ We also summarize the main **training** and **adaptation** settings of the test-
 
 ## Related topics
 
-Domain adaptation
+**Domain adaptation**
 
-Domain generalization ([papers](https://github.com/junkunyuan/Awesome-Domain-Generalization#theory--analysis))
+**Domain generalization** ([papers](https://github.com/junkunyuan/Awesome-Domain-Generalization#theory--analysis))
 
 Survey papers: 
 - Generalizing to Unseen Domains: A Survey on Domain Generalization [[IJCAI 2021](https://arxiv.53yu.com/pdf/2103.03097)] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)]
 - Domain Generalization in Vision: A Survey [[TPAMI 2022](https://arxiv.org/abs/2103.02503)] 
 
-Source-free domain adaptation ([papers](https://github.com/YuejiangLIU/awesome-source-free-test-time-adaptation))
+**Source-free domain adaptation** ([papers](https://github.com/YuejiangLIU/awesome-source-free-test-time-adaptation))
 
 Survey paper:
 - [Source-Free Unsupervised Domain Adaptation: A Survey](https://arxiv.org/pdf/2301.00265.pdf)
