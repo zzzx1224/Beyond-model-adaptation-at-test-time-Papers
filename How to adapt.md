@@ -163,6 +163,8 @@ Prompt adaptation
 #### Sample-wise inference
 Model adaptation
 
+- [Target-Aware Generative Augmentations for Single-Shot Adaptation](https://proceedings.mlr.press/v202/thopalli23a.html), ICML 2023.
+
 Inference adaptation
 
 Normalization adaptation
