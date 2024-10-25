@@ -76,6 +76,7 @@ Batch-wise
 - [Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization](https://proceedings.neurips.cc/paper/2021/hash/1415fe9fea0fa1e45dddcff5682239a0-Abstract.html), NeruIPS 2022.
 - [Extrapolative Continuous-time Bayesian Neural Network for Fast Training-free Test-time Adaptation](https://openreview.net/forum?id=wiHzQWwg3l), NeurIPS 2022.
 - [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://proceedings.mlr.press/v202/zhang23am.html), ICML 2023.
+- [Test-Time Distribution Normalization for Contrastively Learned Vision-language Models](https://proceedings.neurips.cc/paper_files/paper/2023/file/931db0b5a61f9db6c97c7e4bf068147d-Paper-Conference.pdf), NeurIPS 2023.
 
 Sample-wise
 
