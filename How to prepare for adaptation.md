@@ -74,6 +74,7 @@ Model adaptation
 - [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://proceedings.neurips.cc/paper/2021/hash/b618c3210e934362ac261db280128c22-Abstract.html), NeurIPS 2022.
 - [Test-Time Training with Masked Autoencoders](https://openreview.net/forum?id=SHMi1b7sjXk), NeurIPS 2022. 
 - [ActMAD: Activation Matching to Align Distributions for Test-Time-Training](https://openaccess.thecvf.com/content/CVPR2023/html/Mirza_ActMAD_Activation_Matching_To_Align_Distributions_for_Test-Time-Training_CVPR_2023_paper.html), CVPR 2023.
+- [Diffusion-TTA: Test-time Adaptation of Discriminative Models via Generative Feedback](https://openreview.net/forum?id=gUTVpByfVX), ICML 2023.
 - [MATE: Masked Autoencoders are Online 3D Test-Time Learners](https://openaccess.thecvf.com/content/ICCV2023/html/Mirza_MATE_Masked_Autoencoders_are_Online_3D_Test-Time_Learners_ICCV_2023_paper.html), ICCV 2023.
 - [ClusT3: Information Invariant Test-Time Training](https://openaccess.thecvf.com/content/ICCV2023/html/Hakim_ClusT3_Information_Invariant_Test-Time_Training_ICCV_2023_paper.html), ICCV 2023.
 - [On the Robustness of Open-World Test-Time Training: Self-Training with Dynamic Prototype Expansion](https://openaccess.thecvf.com/content/ICCV2023/html/Li_On_the_Robustness_of_Open-World_Test-Time_Training_Self-Training_with_Dynamic_ICCV_2023_paper.html), ICCV 2023.
