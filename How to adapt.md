@@ -54,6 +54,7 @@ Model adaptation
 - [Feature Alignment and Uniformity for Test Time Adaptation](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Feature_Alignment_and_Uniformity_for_Test_Time_Adaptation_CVPR_2023_paper.html), CVPR 2023.
 - [TIPI: Test Time Adaptation With Transformation Invariance](https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html), CVPR 2023.
 - [CAFA: Class-Aware Feature Alignment for Test-Time Adaptation](https://openaccess.thecvf.com/content/ICCV2023/html/Jung_CAFA_Class-Aware_Feature_Alignment_for_Test-Time_Adaptation_ICCV_2023_paper.html), ICCV 2023.
+- [Leveraging Proxy of Training Data for Test-Time Adaptation](https://proceedings.mlr.press/v202/kang23a.html), ICML 2023.
 
 Sample adaptation
 - [Neural Networks with Recurrent Generative Feedback](https://proceedings.neurips.cc/paper/2020/hash/0660895c22f8a14eb039bfb9beb0778f-Abstract.html), NeurIPS 2020.
