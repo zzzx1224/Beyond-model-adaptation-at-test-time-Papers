@@ -21,6 +21,7 @@ Auxiliary Self-supervision
 - [MATE: Masked Autoencoders are Online 3D Test-Time Learners](https://openaccess.thecvf.com/content/ICCV2023/html/Mirza_MATE_Masked_Autoencoders_are_Online_3D_Test-Time_Learners_ICCV_2023_paper.html), ICCV 2023.
 - [ClusT3: Information Invariant Test-Time Training](https://openaccess.thecvf.com/content/ICCV2023/html/Hakim_ClusT3_Information_Invariant_Test-Time_Training_ICCV_2023_paper.html), ICCV 2023.
 - [On the Robustness of Open-World Test-Time Training: Self-Training with Dynamic Prototype Expansion](https://openaccess.thecvf.com/content/ICCV2023/html/Li_On_the_Robustness_of_Open-World_Test-Time_Training_Self-Training_with_Dynamic_ICCV_2023_paper.html), ICCV 2023.
+- [Diffusion-TTA: Test-time Adaptation of Discriminative Models via Generative Feedback](https://openreview.net/forum?id=gUTVpByfVX), NeurIPS 2023.
 
 Entropy Minimization
 
