@@ -27,6 +27,7 @@ Model adaptation
 - [MEMO: Test Time Robustness via Adaptation and Augmentation](https://proceedings.neurips.cc/paper_files/paper/2022/hash/fc28053a08f59fccb48b11f2e31e81c7-Abstract-Conference.html), NeurIPS 2022.
 - [Surgical Fine-Tuning Improves Adaptation to Distribution Shifts](https://openreview.net/forum?id=APuPRxjHvZ), ICLR 2023.
 - [Towards Stable Test-Time Adaptation in Dynamic Wild World](https://openreview.net/forum?id=g2YraF75Tj), ICLR 2023.
+- [Delta: Degradation-free Fully Test-time Adaptation](https://openreview.net/forum?id=eGm22rqG93), ICLR 2023.
 - [Improved Test-Time Adaptation for Domain Generalization](https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Improved_Test-Time_Adaptation_for_Domain_Generalization_CVPR_2023_paper.html), CVPR 2023.
 - [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904), CVPR 2023.
 - [Neuro-Modulated Hebbian Learning for Fully Test-Time Adaptation](https://arxiv.org/abs/2303.00914), CVPR 2023.
@@ -99,6 +100,7 @@ Normalization adaptation
 - [Be Like Water: Robustness to Extraneous Variables Via Adaptive Feature Normalization](https://arxiv.org/abs/2002.04019), arXiv 2020. 
 - [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html), NeurIPS 2021.
 - [NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation](https://proceedings.neurips.cc/paper_files/paper/2022/hash/ae6c7dbd9429b3a75c41b5fb47e57c9e-Abstract-Conference.html), NeurIPS 2022.
+- [Delta: Degradation-free Fully Test-time Adaptation](https://openreview.net/forum?id=eGm22rqG93), ICLR 2023.
 
 - [Improving robustness against common corruptions by covariate shift adaptation](https://proceedings.neurips.cc/paper/2020/hash/85690f81aadc1749175c187784afc9ee-Abstract.html), NeurIPS 2020. 
 - [Test-time Batch Statistics Calibration for Covariate Shift](https://arxiv.org/abs/2110.04065), arXiv 2021.
