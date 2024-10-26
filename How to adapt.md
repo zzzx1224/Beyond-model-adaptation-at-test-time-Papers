@@ -137,6 +137,7 @@ Prompt adaptation
 #### Online inference
 Model adaptation
 - [Diffusion-TTA: Test-time Adaptation of Discriminative Models via Generative Feedback](https://openreview.net/forum?id=gUTVpByfVX), NeurIPS 2023.
+- [Evaluation of Test-Time Adaptation Under Computational Time Constraints](https://openreview.net/forum?id=6FtAXU4ean), ICML 2024.
 
 Inference adaptation
 
