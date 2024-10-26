@@ -129,6 +129,7 @@ Prompt adaptation
 - [Meta-Prompting for Automating Zero-shot Visual Recognition with LLMs](https://arxiv.org/abs/2403.11755), arXiv 2024.
 
 - [Any-Shift Prompting for Generalization over Distributions](https://openaccess.thecvf.com/content/CVPR2024/html/Xiao_Any-Shift_Prompting_for_Generalization_over_Distributions_CVPR_2024_paper.html), CVPR 2024.
+- [Test-Time Model Adaptation with Only Forward Passes](https://openreview.net/forum?id=qz1Vx1v9iK), ICML 2024.
 
   
 ### Inference data
@@ -144,6 +145,7 @@ Normalization adaptation
 Sample adaptation
  
 Prompt adaptation
+- [Test-Time Model Adaptation with Only Forward Passes](https://openreview.net/forum?id=qz1Vx1v9iK), ICML 2024.
 
 #### Batch-wise inference
 Model adaptation
