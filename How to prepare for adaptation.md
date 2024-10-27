@@ -28,6 +28,7 @@ Model adaptation
 - [Test-Time Adaptation via Self-Training with Nearest Neighbor Information](https://openreview.net/forum?id=EzLtB4M1SbM), ICLR 2023.
 - [TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation](https://openaccess.thecvf.com/content/CVPR2023/html/Tomar_TeSLA_Test-Time_Self-Learning_With_Automatic_Adversarial_Augmentation_CVPR_2023_paper.html), CVPR 2023.
 - [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770), CVPR 2023.
+- [PROGRAM: PROtotype GRAph Model based Pseudo-Label Learning for Test-Time Adaptation](https://openreview.net/forum?id=x5LvBK43wg), ICLR 2024.
 - [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022.
 - [Feature Alignment and Uniformity for Test Time Adaptation](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Feature_Alignment_and_Uniformity_for_Test_Time_Adaptation_CVPR_2023_paper.html), CVPR 2023.
 - [TIPI: Test Time Adaptation With Transformation Invariance](https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html), CVPR 2023.
