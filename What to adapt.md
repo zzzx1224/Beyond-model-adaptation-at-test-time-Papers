@@ -57,8 +57,8 @@ Pseudo-labeling
 - [Train/Test-Time Adaptation With Retrieval](https://openaccess.thecvf.com/content/CVPR2023/html/Zancato_TrainTest-Time_Adaptation_With_Retrieval_CVPR_2023_paper.html), CVPR 2023.
 - [TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation](https://openaccess.thecvf.com/content/CVPR2023/html/Tomar_TeSLA_Test-Time_Self-Learning_With_Automatic_Adversarial_Augmentation_CVPR_2023_paper.html), CVPR 2023.
 - [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770), CVPR 2023.
-- [Probabilistic Test-Time Generalization by Variational Neighbor-Labeling](https://arxiv.org/abs/2307.04033), CoLLAs 2024.
 - [SODA: Robust Training of Test-Time Data Adaptors](https://proceedings.neurips.cc/paper_files/paper/2023/hash/893ca2e5ff5bb258da30e0a82f4c8de9-Abstract-Conference.html), NeurIPS 2023.
+- [Probabilistic Test-Time Generalization by Variational Neighbor-Labeling](https://arxiv.org/abs/2307.04033), CoLLAs 2024.
 - [PROGRAM: PROtotype GRAph Model based Pseudo-Label Learning for Test-Time Adaptation](https://openreview.net/forum?id=x5LvBK43wg), ICLR 2024.
 
 Feature Alignment
