@@ -102,6 +102,7 @@ Target statistics.
 - [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html), NeurIPS 2021.
 - [NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation](https://proceedings.neurips.cc/paper_files/paper/2022/hash/ae6c7dbd9429b3a75c41b5fb47e57c9e-Abstract-Conference.html), NeurIPS 2022.
 - [Delta: Degradation-free Fully Test-time Adaptation](https://openreview.net/forum?id=eGm22rqG93), ICLR 2023.
+- [Un-Mixing Test-Time Normalization Statistics: Combatting Label Temporal Correlation](https://openreview.net/forum?id=xyxU99Nutg), ICLR 2024.
 
 Statistics combination
 
