@@ -214,3 +214,4 @@ Dynamic inference
 - [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://arxiv.org/abs/2212.09713), Arxiv. Bayesian adaptation for continual test-time adaptation; with moving average of student to teacher (like continue TTA); Fisher information matrix based data-driven parameter restoration.
 - [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904), CVPR 2023.
 - [Robust test-time adaptation in dynamic scenarios](https://openaccess.thecvf.com/content/CVPR2023/papers/Yuan_Robust_Test-Time_Adaptation_in_Dynamic_Scenarios_CVPR_2023_paper.pdf), CVPR 2023.
+- [BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation](https://openreview.net/forum?id=5zXTwX92qv), ICML 2024.
