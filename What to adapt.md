@@ -42,6 +42,7 @@ Entropy Minimization
 - [SoTTA: Robust Test-Time Adaptation on Noisy Data Streams](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2da53cd1abdae59150e35f4693834f32-Abstract-Conference.html), NeurIPS 2023.
 - [TEA: Test-time Energy Adaptation](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_TEA_Test-time_Energy_Adaptation_CVPR_2024_paper.pdf), CVPR 2024.
 - [Unified Entropy Optimization for Open-Set Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Gao_Unified_Entropy_Optimization_for_Open-Set_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
+- [Stationary Latent Weight Inference for Unreliable Observations from Online Test-Time Adaptation](https://openreview.net/pdf?id=HmKMpJXH67), ICML 2024.
 
 Pseudo-labeling
 
