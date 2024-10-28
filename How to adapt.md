@@ -54,6 +54,7 @@ Model adaptation
 - [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770), CVPR 2023.
 - [Probabilistic Test-Time Generalization by Variational Neighbor-Labeling](https://arxiv.org/abs/2307.04033), CoLLAs 2024.
 - [PROGRAM: PROtotype GRAph Model based Pseudo-Label Learning for Test-Time Adaptation](https://openreview.net/forum?id=x5LvBK43wg), ICLR 2024.
+- [Improved Self-Training for Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Improved_Self-Training_for_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 
 - [Test time Adaptation through Perturbation Robustness](https://openreview.net/forum?id=GbBeI5z86uD), NeurIPS workshop 2021.
 - [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://openreview.net/forum?id=W-_4hgRkwb), NeurIPS 2022.
