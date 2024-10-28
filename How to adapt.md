@@ -227,6 +227,7 @@ Dynamic inference
 - [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904), CVPR 2023.
 - [Robust test-time adaptation in dynamic scenarios](https://openaccess.thecvf.com/content/CVPR2023/papers/Yuan_Robust_Test-Time_Adaptation_in_Dynamic_Scenarios_CVPR_2023_paper.pdf), CVPR 2023.
 - [Continual Momentum Filtering on Parameter Space for Online Test-time Adaptation](https://openreview.net/forum?id=BllUWdpIOA), ICLR 2024.
+- [Domain-Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Domain-Specific_Block_Selection_and_Paired-View_Pseudo-Labeling_for_Online_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 - [Improved Self-Training for Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Improved_Self-Training_for_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 - [A Versatile Framework for Continual Test-Time Domain Adaptation: Balancing Discriminability and Generalizability](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_A_Versatile_Framework_for_Continual_Test-Time_Domain_Adaptation_Balancing_Discriminability_CVPR_2024_paper.html), CVPR 2024.
 - [BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation](https://openreview.net/forum?id=5zXTwX92qv), ICML 2024.
