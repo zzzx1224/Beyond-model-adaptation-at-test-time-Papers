@@ -71,6 +71,7 @@ Sample adaptation
 - [A-STAR: Test-time Attention Segregation and Retention for Text-to-image Synthesis](https://openaccess.thecvf.com/content/ICCV2023/html/Agarwal_A-STAR_Test-time_Attention_Segregation_and_Retention_for_Text-to-image_Synthesis_ICCV_2023_paper.html), ICCV 2023.
 
 - [Back to the Source: Diffusion-Driven Test-Time Adaptation](https://arxiv.org/abs/2207.03442), CVPR 2023.
+- [GDA: Generalized Diffusion for Robust Test-time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Tsai_GDA_Generalized_Diffusion_for_Robust_Test-time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
  
 Prompt adaptation
 - [TEMPERA: Test-Time Prompt Editing via Reinforcement Learning](https://openreview.net/forum?id=gSHyqBijPFO), ICLR 2023.
