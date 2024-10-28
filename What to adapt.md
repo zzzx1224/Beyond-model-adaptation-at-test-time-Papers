@@ -170,6 +170,7 @@ Embedding-prompting
 - [SwapPrompt: Test-Time Prompt Adaptation for Vision-Language Models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cdd0640218a27e9e2c0e52e324e25db0-Abstract-Conference.html), NeurIPS 2023.
 - [Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fe8debfd5a36ada52e038c8b2078b2ce-Abstract-Conference.html), NeurIPS 2023.
 - [Robust Test-Time Adaptation for Zero-Shot Prompt Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/29611), AAAI 2024.
+- [DART: Dual-Modal Adaptive Online Prompting and Knowledge Retention for Test-Time Adaptation](https://ojs.aaai.org/index.php/AAAI/article/view/29320), AAAI 2024.
 - [Test-Time Adaptation with CLIP Reward for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=kIP0duasBb), ICLR 2024.
 - [C-TPT: Calibrated Test-Time Prompt Tuning for Vision-Language Models via Text Feature Dispersion](https://openreview.net/forum?id=jzzEHTBFOT), ICLR 2024.
 - [Any-Shift Prompting for Generalization over Distributions](https://openaccess.thecvf.com/content/CVPR2024/html/Xiao_Any-Shift_Prompting_for_Generalization_over_Distributions_CVPR_2024_paper.html), CVPR 2024.
