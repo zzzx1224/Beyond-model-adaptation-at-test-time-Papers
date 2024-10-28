@@ -36,6 +36,7 @@ Model adaptation
 - [DomainAdaptor: A Novel Approach to Test-time Adaptation](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_DomainAdaptor_A_Novel_Approach_to_Test-time_Adaptation_ICCV_2023_paper.html), ICCV 2023.
 - [SoTTA: Robust Test-Time Adaptation on Noisy Data Streams](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2da53cd1abdae59150e35f4693834f32-Abstract-Conference.html), NeurIPS 2023.
 - [Entropy is not Enough for Test-Time Adaptation: From the Perspective of Disentangled Factors](https://openreview.net/forum?id=9w3iw8wDuE), ICLR 2024.
+- [Continual Momentum Filtering on Parameter Space for Online Test-time Adaptation](https://openreview.net/forum?id=BllUWdpIOA), ICLR 2024.
 - [TEA: Test-time Energy Adaptation](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_TEA_Test-time_Energy_Adaptation_CVPR_2024_paper.pdf), CVPR 2024.
 - [Unified Entropy Optimization for Open-Set Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Gao_Unified_Entropy_Optimization_for_Open-Set_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 - [Stationary Latent Weight Inference for Unreliable Observations from Online Test-Time Adaptation](https://openreview.net/pdf?id=HmKMpJXH67), ICML 2024.
@@ -219,4 +220,5 @@ Dynamic inference
 - [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://arxiv.org/abs/2212.09713), Arxiv. Bayesian adaptation for continual test-time adaptation; with moving average of student to teacher (like continue TTA); Fisher information matrix based data-driven parameter restoration.
 - [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904), CVPR 2023.
 - [Robust test-time adaptation in dynamic scenarios](https://openaccess.thecvf.com/content/CVPR2023/papers/Yuan_Robust_Test-Time_Adaptation_in_Dynamic_Scenarios_CVPR_2023_paper.pdf), CVPR 2023.
+- [Continual Momentum Filtering on Parameter Space for Online Test-time Adaptation](https://openreview.net/forum?id=BllUWdpIOA), ICLR 2024.
 - [BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation](https://openreview.net/forum?id=5zXTwX92qv), ICML 2024.
