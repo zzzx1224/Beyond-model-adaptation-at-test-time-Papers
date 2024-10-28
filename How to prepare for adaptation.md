@@ -103,6 +103,7 @@ Sample adaptation
 - [Generalization on Unseen Domains via Inference-Time Label-Preserving Target Projections](https://openaccess.thecvf.com/content/CVPR2021/html/Pandey_Generalization_on_Unseen_Domains_via_Inference-Time_Label-Preserving_Target_Projections_CVPR_2021_paper.html), CVPR 2021.
 - [Diffusion Models for Adversarial Purification](https://arxiv.org/abs/2205.07460), ICML 2022. 
 - [Back to the Source: Diffusion-Driven Test-Time Adaptation](https://arxiv.org/abs/2207.03442), CVPR 2023.
+- [GDA: Generalized Diffusion for Robust Test-time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Tsai_GDA_Generalized_Diffusion_for_Robust_Test-time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 
 
 #### Training-and-data preparation
