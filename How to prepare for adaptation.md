@@ -51,6 +51,7 @@ Normalization adaptation
 - [The Norm Must Go On: Dynamic Unsupervised Domain Adaptation by Normalization](https://openaccess.thecvf.com/content/CVPR2022/html/Mirza_The_Norm_Must_Go_On_Dynamic_Unsupervised_Domain_Adaptation_by_CVPR_2022_paper.html), CVPR 2022.
 - [Generalized Lightness Adaptation with Channel Selective Normalization](https://openaccess.thecvf.com/content/ICCV2023/html/Yao_Generalized_Lightness_Adaptation_with_Channel_Selective_Normalization_ICCV_2023_paper.html), ICCV 2023.
 - [Un-Mixing Test-Time Normalization Statistics: Combatting Label Temporal Correlation](https://openreview.net/forum?id=xyxU99Nutg), ICLR 2024.
+- [MedBN: Robust Test-Time Adaptation against Malicious Test Samples](https://openaccess.thecvf.com/content/CVPR2024/html/Park_MedBN_Robust_Test-Time_Adaptation_against_Malicious_Test_Samples_CVPR_2024_paper.html), CVPR 2024.
 
 Prompt adaptation
 - [TEMPERA: Test-Time Prompt Editing via Reinforcement Learning](https://openreview.net/forum?id=gSHyqBijPFO), ICLR 2023.
