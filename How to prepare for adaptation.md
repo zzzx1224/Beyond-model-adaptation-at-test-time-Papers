@@ -71,6 +71,7 @@ Prompt adaptation
 - [Robust Test-Time Adaptation for Zero-Shot Prompt Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/29611), AAAI 2024.
 - [Test-Time Adaptation with CLIP Reward for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=kIP0duasBb), ICLR 2024.
 - [C-TPT: Calibrated Test-Time Prompt Tuning for Vision-Language Models via Text Feature Dispersion](https://openreview.net/forum?id=jzzEHTBFOT), ICLR 2024.
+- [Test-Time Adaptation with CLIP Reward for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=kIP0duasBb), ICLR 2024.
 
 
 
