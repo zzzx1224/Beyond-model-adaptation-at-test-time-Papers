@@ -122,6 +122,7 @@ Model adaptation
 - [OST: Improving Generalization of DeepFake Detection via One-Shot Test-Time Training](https://openreview.net/forum?id=YPoRoad6gzY). NeurIPS 2022.
 - [Test-Time Adaptation for Video Frame Interpolation via Meta-Learning](https://ieeexplore.ieee.org/abstract/document/9625774), TPAMI 2022.
 - [Probabilistic Test-Time Generalization by Variational Neighbor-Labeling](https://arxiv.org/abs/2307.04033), CoLLAs 2024.
+- [Test-Time Domain Adaptation by Learning Domain-Aware Batch Normalization](https://ojs.aaai.org/index.php/AAAI/article/view/29527), AAAI 2024.
 
 Inference adaptation
 - [Learning to Generalize across Domains on Single Test Samples](https://openreview.net/forum?id=CIaQKbTBwtU), ICLR 2022.
