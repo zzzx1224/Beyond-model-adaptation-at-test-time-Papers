@@ -124,6 +124,7 @@ Normalization adaptation
 - [The Norm Must Go On: Dynamic Unsupervised Domain Adaptation by Normalization](https://openaccess.thecvf.com/content/CVPR2022/html/Mirza_The_Norm_Must_Go_On_Dynamic_Unsupervised_Domain_Adaptation_by_CVPR_2022_paper.html), CVPR 2022.
 - [TTN: A Domain-Shift Aware Batch Normalization in Test-Time Adaptation](https://openreview.net/forum?id=EQfeudmWLQ), ICLR 2023.
 - [Generalized Lightness Adaptation with Channel Selective Normalization](https://openaccess.thecvf.com/content/ICCV2023/html/Yao_Generalized_Lightness_Adaptation_with_Channel_Selective_Normalization_ICCV_2023_paper.html), ICCV 2023.
+- [Unraveling Batch Normalization for Realistic Test-Time Adaptation](https://ojs.aaai.org/index.php/AAAI/article/view/29436), AAAI 2024.
 - [Test-Time Domain Generalization for Face Anti-Spoofing](https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Test-Time_Domain_Generalization_for_Face_Anti-Spoofing_CVPR_2024_paper.html), CVPR 2024.
 
 - [MetaNorm: Learning to Normalize Few-Shot Batches Across Domains](https://openreview.net/forum?id=9z_dNsC4B5t), ICLR 2021.
@@ -167,6 +168,7 @@ Model adaptation
 Inference adaptation
 
 Normalization adaptation
+- [Unraveling Batch Normalization for Realistic Test-Time Adaptation](https://ojs.aaai.org/index.php/AAAI/article/view/29436), AAAI 2024.
 
 Sample adaptation
  
