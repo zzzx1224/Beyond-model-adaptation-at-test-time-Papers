@@ -24,6 +24,7 @@ Auxiliary Self-supervision
 - [Diffusion-TTA: Test-time Adaptation of Discriminative Models via Generative Feedback](https://openreview.net/forum?id=gUTVpByfVX), NeurIPS 2023.
 - [Test-Time Domain Adaptation by Learning Domain-Aware Batch Normalization](https://ojs.aaai.org/index.php/AAAI/article/view/29527), AAAI 2024.
 - [NC-TTT: A Noise Constrastive Approach for Test-Time Training](https://openaccess.thecvf.com/content/CVPR2024/html/Osowiechi_NC-TTT_A_Noise_Constrastive_Approach_for_Test-Time_Training_CVPR_2024_paper.html), CVPR 2024.
+- [TTT-MIM: Test-Time Training with Masked Image Modeling for Denoising Distribution Shifts](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01921.pdf), ECCV 2024.
 
 Entropy Minimization
 
