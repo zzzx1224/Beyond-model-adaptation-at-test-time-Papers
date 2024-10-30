@@ -23,6 +23,7 @@ Model adaptation
 - [Improved Self-Training for Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Improved_Self-Training_for_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 - [AETTA: Label-Free Accuracy Estimation for Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Lee_AETTA_Label-Free_Accuracy_Estimation_for_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 - [Stationary Latent Weight Inference for Unreliable Observations from Online Test-Time Adaptation](https://openreview.net/pdf?id=HmKMpJXH67), ICML 2024.
+- [Protected Test-Time Adaptation via Online Entropy Matching](https://arxiv.org/abs/2408.07511), NeurIPS 2024.
 - [Continual Test-Time Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.html), CVPR 2022.
 - [Contrastive Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Contrastive_Test-Time_Adaptation_CVPR_2022_paper.html), CVPR 2022.
 - [Test Time Adaptation via Conjugate Pseudo-labels](https://proceedings.neurips.cc/paper_files/paper/2022/hash/28e9eff897f98372409b40ae1ed3ea4c-Abstract-Conference.html), NeurIPS 2022.
