@@ -80,6 +80,7 @@ Feature Alignment
 - [Towards Real-World Test-Time Adaptation: Tri-net Self-Training with Balanced Normalization](https://ojs.aaai.org/index.php/AAAI/article/view/29435), AAAI 2024.
 - [Bi-TTA: Bidirectional Test-Time Adapter for Remote Physiological Measurement](https://arxiv.org/abs/2409.17316), ECCV 2024.
 - [CloudFixer: Test-Time Adaptation for 3D Point Clouds via Diffusion-Guided Geometric Transformation](https://arxiv.org/abs/2407.16193), ECCV 2024.
+- [Distribution Alignment for Fully Test-Time Adaptation with Dynamic Online Data Streams](https://arxiv.org/abs/2407.12128), ECCV 2024.
 
 
 ### Inference Adaptation
@@ -180,3 +181,4 @@ Embedding-prompting
 - [C-TPT: Calibrated Test-Time Prompt Tuning for Vision-Language Models via Text Feature Dispersion](https://openreview.net/forum?id=jzzEHTBFOT), ICLR 2024.
 - [Any-Shift Prompting for Generalization over Distributions](https://openaccess.thecvf.com/content/CVPR2024/html/Xiao_Any-Shift_Prompting_for_Generalization_over_Distributions_CVPR_2024_paper.html), CVPR 2024.
 - [Test-Time Model Adaptation with Only Forward Passes](https://openreview.net/forum?id=qz1Vx1v9iK), ICML 2024.
+- [Domain-adaptive Video Deblurring via Test-time Blurring; Dual-Path Adversarial Lifting for Domain Shift Correction in Online Test-time Adaptation](https://arxiv.org/abs/2408.13983), ECCV 2024.
