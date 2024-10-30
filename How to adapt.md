@@ -244,3 +244,4 @@ Dynamic inference
 - [BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation](https://openreview.net/forum?id=5zXTwX92qv), ICML 2024.
 - [Reshaping the Online Data Buffering and Organizing Mechanism for Continual Test-Time Adaptation](https://arxiv.org/abs/2407.09367), ECCV 2024.
 - [Persistent Test-time Adaptation in Recurring Testing Scenarios](https://hthieu166.github.io/petta), NeurIPS 2024.
+- [Protected Test-Time Adaptation via Online Entropy Matching](https://arxiv.org/abs/2408.07511), NeurIPS 2024.
