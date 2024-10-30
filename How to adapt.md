@@ -41,6 +41,7 @@ Model adaptation
 - [TEA: Test-time Energy Adaptation](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_TEA_Test-time_Energy_Adaptation_CVPR_2024_paper.pdf), CVPR 2024.
 - [Unified Entropy Optimization for Open-Set Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Gao_Unified_Entropy_Optimization_for_Open-Set_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 - [Stationary Latent Weight Inference for Unreliable Observations from Online Test-Time Adaptation](https://openreview.net/pdf?id=HmKMpJXH67), ICML 2024.
+- [STAMP: Outlier-Aware Test-Time Adaptation with Stable Memory Replay](https://arxiv.org/abs/2407.15773), ECCV 2024.
 
 - [If your data distribution shifts, use self-learning](https://arxiv.org/abs/2104.12928), TMLR 2021.
 - [On-target Adaptation](https://arxiv.org/abs/2109.01087), arXiv 2021.
