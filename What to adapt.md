@@ -151,6 +151,7 @@ Input adjustment
 
 - [Back to the Source: Diffusion-Driven Test-Time Adaptation](https://arxiv.org/abs/2207.03442), CVPR 2023.
 - [GDA: Generalized Diffusion for Robust Test-time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Tsai_GDA_Generalized_Diffusion_for_Robust_Test-time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
+- [Efficient Diffusion-Driven Corruption Editor for Test-Time Adaptation](https://arxiv.org/abs/2403.10911), ECCV 2024.
 
 ### Prompt adaptation
 
