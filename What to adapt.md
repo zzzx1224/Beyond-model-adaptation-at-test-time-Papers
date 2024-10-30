@@ -79,6 +79,7 @@ Feature Alignment
 - [Leveraging Proxy of Training Data for Test-Time Adaptation](https://proceedings.mlr.press/v202/kang23a.html), ICML 2023.
 - [Towards Real-World Test-Time Adaptation: Tri-net Self-Training with Balanced Normalization](https://ojs.aaai.org/index.php/AAAI/article/view/29435), AAAI 2024.
 - [Bi-TTA: Bidirectional Test-Time Adapter for Remote Physiological Measurement](https://arxiv.org/abs/2409.17316), ECCV 2024.
+- [CloudFixer: Test-Time Adaptation for 3D Point Clouds via Diffusion-Guided Geometric Transformation](https://arxiv.org/abs/2407.16193), ECCV 2024.
 
 
 ### Inference Adaptation
