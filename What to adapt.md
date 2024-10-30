@@ -78,6 +78,7 @@ Feature Alignment
 - [CAFA: Class-Aware Feature Alignment for Test-Time Adaptation](https://openaccess.thecvf.com/content/ICCV2023/html/Jung_CAFA_Class-Aware_Feature_Alignment_for_Test-Time_Adaptation_ICCV_2023_paper.html), ICCV 2023.
 - [Leveraging Proxy of Training Data for Test-Time Adaptation](https://proceedings.mlr.press/v202/kang23a.html), ICML 2023.
 - [Towards Real-World Test-Time Adaptation: Tri-net Self-Training with Balanced Normalization](https://ojs.aaai.org/index.php/AAAI/article/view/29435), AAAI 2024.
+- [Bi-TTA: Bidirectional Test-Time Adapter for Remote Physiological Measurement](https://arxiv.org/abs/2409.17316), ECCV 2024.
 
 
 ### Inference Adaptation
