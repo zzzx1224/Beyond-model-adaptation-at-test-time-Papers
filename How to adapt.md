@@ -239,3 +239,4 @@ Dynamic inference
 - [A Versatile Framework for Continual Test-Time Domain Adaptation: Balancing Discriminability and Generalizability](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_A_Versatile_Framework_for_Continual_Test-Time_Domain_Adaptation_Balancing_Discriminability_CVPR_2024_paper.html), CVPR 2024.
 - [Continual-MAE: Adaptive Distribution Masked Autoencoders for Continual Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Continual-MAE_Adaptive_Distribution_Masked_Autoencoders_for_Continual_Test-Time_Adaptation_CVPR_2024_paper.html), CVPR 2024.
 - [BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation](https://openreview.net/forum?id=5zXTwX92qv), ICML 2024.
+- [Reshaping the Online Data Buffering and Organizing Mechanism for Continual Test-Time Adaptation](https://arxiv.org/abs/2407.09367), ECCV 2024.
