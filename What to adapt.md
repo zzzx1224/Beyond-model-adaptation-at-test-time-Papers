@@ -183,5 +183,5 @@ Embedding-prompting
 - [C-TPT: Calibrated Test-Time Prompt Tuning for Vision-Language Models via Text Feature Dispersion](https://openreview.net/forum?id=jzzEHTBFOT), ICLR 2024.
 - [Any-Shift Prompting for Generalization over Distributions](https://openaccess.thecvf.com/content/CVPR2024/html/Xiao_Any-Shift_Prompting_for_Generalization_over_Distributions_CVPR_2024_paper.html), CVPR 2024.
 - [Test-Time Model Adaptation with Only Forward Passes](https://openreview.net/forum?id=qz1Vx1v9iK), ICML 2024.
-- [Domain-adaptive Video Deblurring via Test-time Blurring; Dual-Path Adversarial Lifting for Domain Shift Correction in Online Test-time Adaptation](https://arxiv.org/abs/2408.13983), ECCV 2024.
+- [Dual-Path Adversarial Lifting for Domain Shift Correction in Online Test-time Adaptation](https://arxiv.org/abs/2408.13983), ECCV 2024.
 - [Prompt-Based Test-Time Real Image Dehazing: A Novel Pipeline](https://arxiv.org/abs/2309.17389), ECCV 2024.
