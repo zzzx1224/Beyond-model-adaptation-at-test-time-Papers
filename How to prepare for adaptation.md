@@ -55,6 +55,7 @@ Normalization adaptation
 - [Unraveling Batch Normalization for Realistic Test-Time Adaptation](https://ojs.aaai.org/index.php/AAAI/article/view/29436), AAAI 2024.
 - [Un-Mixing Test-Time Normalization Statistics: Combatting Label Temporal Correlation](https://openreview.net/forum?id=xyxU99Nutg), ICLR 2024.
 - [MedBN: Robust Test-Time Adaptation against Malicious Test Samples](https://openaccess.thecvf.com/content/CVPR2024/html/Park_MedBN_Robust_Test-Time_Adaptation_against_Malicious_Test_Samples_CVPR_2024_paper.html), CVPR 2024.
+- [MemBN: Robust Test-Time Adaptation via Batch Norm with Statistics Memory](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04143.pdf), ECCV 2024.
 
 Prompt adaptation
 - [TEMPERA: Test-Time Prompt Editing via Reinforcement Learning](https://openreview.net/forum?id=gSHyqBijPFO), ICLR 2023.
