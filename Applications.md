@@ -1,7 +1,18 @@
 
 ## Applications
 
-### Medical imaging
+Test-time adaptation has recently been applied to an expanding range of tasks. We review the literature on test-time adaptation across image-level, video-level, and 3D tasks, as well as applications beyond the field of vision.
+
+### Image-level
+
+#### Image classification
+
+Image classification is the most investigated task in test-time adaptation due to its ease of implementing various distribution shifts, straightforward evaluation, and generalization to other tasks. Most works in [What to adapt.md](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/What%20to%20adapt.md) are conducted on the image classification task.
+
+#### 
+
+
+Medical imaging
 - [Test-time Unsupervised Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_42), MICCAI 2020.
 - [Fully Test-Time Adaptation for Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-87199-4_24), MICCAI 2021. Like tent
 - [Test-Time Adaptation with Shape Moments for Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-031-16440-8_70), MICCAI 2022.
