@@ -17,9 +17,11 @@ We put the commonly used image classification datasets for test-time adaptation 
 
 ## Applications
 
+The applications of test-time adaptation methods are summarized in the [Applications](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/Applications.md).
+
 ## Related topics
 
-**Domain adaptation**
+**Domain adaptation** ([papers](https://github.com/zhaoxin94/awesome-domain-adaptation))
 
 **Domain generalization** ([papers](https://github.com/junkunyuan/Awesome-Domain-Generalization#theory--analysis))
 
