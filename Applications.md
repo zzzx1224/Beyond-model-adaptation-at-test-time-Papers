@@ -44,7 +44,7 @@ Low-light image enhancement
 - [Generalized Lightness Adaptation with Channel Selective Normalization](https://openaccess.thecvf.com/content/ICCV2023/html/Yao_Generalized_Lightness_Adaptation_with_Channel_Selective_Normalization_ICCV_2023_paper.html), ICCV 2023
 
 Image restoration
-- [Test-Time Degradation Adaptation for Open-Set Image Restoration], ICML 2024.
+- [Test-Time Degradation Adaptation for Open-Set Image Restoration](https://openreview.net/forum?id=XLlQb24X2o), ICML 2024.
 
 Image denoising
 - [TTT-MIM: Test-Time Training with Masked Image Modeling for Denoising Distribution Shifts](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01921.pdf), ECCV 2024.
@@ -59,6 +59,7 @@ Image deblurring
 #### Medical imaging
 Classification
 - [Test-time Adaptation with Calibration of Medical Image Classification Nets for Label Distribution Shift](https://link.springer.com/chapter/10.1007/978-3-031-16437-8_30), MICCAI 2022.
+- [Zero-Shot ECG Classification with Multimodal Learning and Test-time Clinical Knowledge Enhancement](https://openreview.net/forum?id=ZvJ2lQQKjz), ICML 2024.
 
 Segmentation
 - [Test-time Unsupervised Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_42), MICCAI 2020.
@@ -72,14 +73,40 @@ Segmentation
 Reconstruction
 - [Test-Time Model Adaptation for Image Reconstruction Using Self-supervised Adaptive Layers](https://bpb-us-w2.wpmucdn.com/blog.nus.edu.sg/dist/8/10877/files/2024/07/ECCV_2024_adaption.pdf), ECCV 2024.
 
+MRI acceleration
+- [Test-Time Training Can Close the Natural Distribution Shift Performance Gap in Deep Learning Based Compressed Sensing](https://proceedings.mlr.press/v162/darestani22a.html), ICML 2022.
+- [MotionTTT: 2D Test-Time-Training Motion Estimation for 3D Motion Corrected MRI](https://arxiv.org/abs/2409.09370), NeurIPS 2024.
+
 #### Other image-level applications
+
+Pose estimation
+- [Test-Time Personalization with a Transformer for Human Pose Estimation](https://proceedings.neurips.cc/paper/2021/hash/1517c8664be296f0d87d9e5fc54fdd60-Abstract.html), NeurIPS 2021.
+- [Self-Constrained Inference Optimization on Structural Groups for Human Pose Estimation](https://link.springer.com/chapter/10.1007/978-3-031-20065-6_42), ECCV 2022.
+- [Meta-Auxiliary Learning for Adaptive Human Pose Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/25760), AAAI 2023.
+- [Self-Correctable and Adaptable Inference for Generalizable Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2023/html/Kan_Self-Correctable_and_Adaptable_Inference_for_Generalizable_Human_Pose_Estimation_CVPR_2023_paper.html), CVPR 2023.
+- [TTA-COPE: Test-Time Adaptation for Category-Level Object Pose Estimation](https://openaccess.thecvf.com/content/CVPR2023/html/Lee_TTA-COPE_Test-Time_Adaptation_for_Category-Level_Object_Pose_Estimation_CVPR_2023_paper.html), CVPR 2023.
+
+Person re-identification 
+- [Generalizable Person Re-identification via Self-Supervised Batch Norm Test-Time Adaption](https://ojs.aaai.org/index.php/AAAI/article/view/19963), AAAI 2022.
+- [Heterogeneous Test-Time Training for Multi-Modal Person Re-identification](https://ojs.aaai.org/index.php/AAAI/article/view/28398), AAAI 2024.
 
 DeepFake detection
 - [OST: Improving Generalization of DeepFake Detection via One-Shot Test-Time Training](https://openreview.net/forum?id=YPoRoad6gzY), NeurIPS 2022.
+- [Test-Time Domain Generalization for Face Anti-Spoofing](https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Test-Time_Domain_Generalization_for_Face_Anti-Spoofing_CVPR_2024_paper.html), CVPR 2024.
 
-Pose estimation
-- [Test-Time Personalization with a Transformer for Human Pose Estimation](https://proceedings.neurips.cc/paper/2021/hash/1517c8664be296f0d87d9e5fc54fdd60-Abstract.html), NeurIPS 2021. 
-### Image enhancement & restoration
+Out-of-distribution detection
+- [ATTA: Anomaly-aware Test-Time Adaptation for Out-of-Distribution Detection in Segmentation](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8dcc306a2522c60a78f047ab8739e631-Abstract-Conference.html), NeurIPS 2023.
+- [When Model Meets New Normals: Test-Time Adaptation for Unsupervised Time-Series Anomaly Detection](https://ojs.aaai.org/index.php/AAAI/article/view/29210), AAAI 2024.
+- [Test-Time Linear Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2024/html/Fan_Test-Time_Linear_Out-of-Distribution_Detection_CVPR_2024_paper.html), CVPR 2024.
+
+Style transfer
+- [Deep Translation Prior: Test-Time Training for Photorealistic Style Transfer](https://ojs.aaai.org/index.php/AAAI/article/view/20004), AAAI 2022.
+
+Federated learning
+- [Towards Instance-adaptive Inference for Federated Learning](https://openaccess.thecvf.com/content/ICCV2023/html/Feng_Towards_Instance-adaptive_Inference_for_Federated_Learning_ICCV_2023_paper.html), ICCV 2023.
+- [Adaptive Test-Time Personalization for Federated Learning](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f555b62384279b98732204cb1a670a23-Abstract-Conference.html), NeurIPS 2023.
+- [Is Heterogeneity Notorious? Taming Heterogeneity to Handle Test-Time Shift in Federated Learning](https://proceedings.neurips.cc/paper_files/paper/2023/hash/565f995643da6329cec701f26f8579f5-Abstract-Conference.html), NeurIPS 2023.
+
 
 
 ### Video-level
