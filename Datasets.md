@@ -11,14 +11,14 @@ The model is trained on the original CIFAR-10/100 or ImageNet datasets and evalu
 
 <img align="center" src="figures/imagenet-c.png" width="750">
 
-#### Digit adaptation
+#### Digit adaptation: [MNIST](https://yann.lecun.com/exdb/mnist/), [MNIST-M](https://github.com/zumpchke/keras_mnistm/releases/tag/1.0), [SVHN](http://ufldl.stanford.edu/housenumbers/), and [USPS](https://git-disl.github.io/GTDLBench/datasets/usps_dataset/).
 
-Digit adaptation is a common benchmark in domain adaptation, where different distributions are different datasets, e.g., [MNIST](https://yann.lecun.com/exdb/mnist/), [MNIST-M](https://github.com/zumpchke/keras_mnistm/releases/tag/1.0), [SVHN](http://ufldl.stanford.edu/housenumbers/), and [USPS](https://git-disl.github.io/GTDLBench/datasets/usps_dataset/). 
+Digit adaptation is a common benchmark in domain adaptation, where different distributions are different datasets. 
 Commonly, test-time adaptation methods on digits datasets train their model on SVHN. The trained model is then adapted and evaluated on the different target distributions of MNIST, MNIST-M, and USPS.
 
-#### Other distribution shifts
+#### Other distribution shifts: [CIFAR-10.1](https://github.com/modestyachts/CIFAR-10.1); [ImageNet-A](https://github.com/hendrycks/natural-adv-examples), [ImageNet-R](https://github.com/hendrycks/imagenet-r), [ImageNet-Sketch](https://github.com/HaohanWang/ImageNet-Sketch), and [ImageNet-V2](https://imagenetv2.org/).
 
-A model trained on CIFAR can also be evaluated on other types of distribution shifts, such as [CIFAR-10.1](https://github.com/modestyachts/CIFAR-10.1). 
+A model trained on CIFAR-10 can also be evaluated on another distribution shift [CIFAR-10.1](https://github.com/modestyachts/CIFAR-10.1). 
 
 Similarly, models trained on ImageNet have evaluation datasets designed for other kinds of distribution shifts, for example, [ImageNet-A](https://github.com/hendrycks/natural-adv-examples), [ImageNet-R](https://github.com/hendrycks/imagenet-r), [ImageNet-Sketch](https://github.com/HaohanWang/ImageNet-Sketch), and [ImageNet-V2](https://imagenetv2.org/).
 
