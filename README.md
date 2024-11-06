@@ -13,7 +13,7 @@ We also summarize the main **training** and **adaptation** settings of the test-
 
 ## Datasets
 
-We put the commonly used datasets for test-time adaptation methods in [Datasets](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/Datasets.md).
+We put the commonly used image classification datasets for test-time adaptation methods in [Datasets](https://github.com/zzzx1224/Papers-of-test-time-adaptation/blob/main/Datasets.md).
 
 ## Applications
 
