@@ -23,6 +23,9 @@ A model trained on CIFAR-10 can also be evaluated on another distribution shift 
 Similarly, models trained on ImageNet have evaluation datasets designed for other kinds of distribution shifts, for example, [ImageNet-A](https://github.com/hendrycks/natural-adv-examples), [ImageNet-R](https://github.com/hendrycks/imagenet-r), [ImageNet-Sketch](https://github.com/HaohanWang/ImageNet-Sketch), and [ImageNet-V2](https://imagenetv2.org/).
 
 
+### Multiple training distributions
+
+Test-time adaptation methods are also conducted on the domain generalization datasets, where multiple source distributions are available during training. The trained model is then adapted and evaluated on the target distribution. The commonly utilized domain generalization datasets are [PACS](https://huggingface.co/datasets/flwrlabs/pacs), [Office-Home](https://www.hemanthdv.org/officeHomeDataset.html), [VLCS](https://github.com/belaalb/G2DM?tab=readme-ov-file#download-vlcs), [TerraIncognita](https://beerys.github.io/CaltechCameraTraps/), and [DomainNet](https://ai.bu.edu/M3SDA/), where the distribution shifts are achieved by different image styles or datasets.
 
 
 
