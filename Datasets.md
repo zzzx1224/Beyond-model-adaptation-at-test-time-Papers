@@ -4,11 +4,18 @@ Test-time adaptation methods are commonly investigated in image classification t
 
 ### Single training distribution
 
-Corruption-based datasets: [CIFAR-10-C/CIFAR-100-C](https://www.cs.toronto.edu/~kriz/cifar.html) and [ImageNet-C](https://github.com/hendrycks/robustness?tab=readme-ov-file).
+#### Corruption-based datasets: [CIFAR-10-C/CIFAR-100-C](https://www.cs.toronto.edu/~kriz/cifar.html) and [ImageNet-C](https://github.com/hendrycks/robustness?tab=readme-ov-file).
+
 The model is trained on the original CIFAR-10/100 or ImageNet datasets and evaluated on their corrupted versions. The commonly used corruptions are:
 
 
 <img align="center" src="figures/imagenet-c.png" width="750">
+
+#### Digit adaptation
+
+
+
+#### Other distribution shifts
 
 A model trained on CIFAR can also be evaluated on other types of distribution shifts, such as [CIFAR-10.1](https://github.com/modestyachts/CIFAR-10.1). 
 
